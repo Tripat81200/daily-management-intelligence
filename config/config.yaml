@@ -9,6 +9,11 @@ edition:
   timezone: "Asia/Kolkata"
   default_delivery_time: "07:00"
 
+email:
+  to: "tpss81200@gmail.com"
+  service: "resend"
+  from_address: "Management Intelligence <onboarding@resend.dev>"
+
 # AI Model Configuration
 ai:
   provider: "gemini" # options: "gemini", "openai"

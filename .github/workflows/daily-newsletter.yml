@@ -56,7 +56,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          EMAIL_TO: ${{ inputs.recipient_override || secrets.EMAIL_TO }}
+          EMAIL_TO: ${{ inputs.recipient_override || secrets.EMAIL_TO || 'tpss81200@gmail.com' }}
           EMAIL_FROM: ${{ secrets.EMAIL_FROM || 'Management Intelligence <onboarding@resend.dev>' }}
           EMAIL_SERVICE: ${{ secrets.EMAIL_SERVICE || 'resend' }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
