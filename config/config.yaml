@@ -1,0 +1,111 @@
+# ==============================================================================
+# Daily Management Intelligence - Configuration
+# ==============================================================================
+
+edition:
+  name: "Daily Management Intelligence"
+  tagline: "Executive Briefing for MBA Leaders & Strategy Professionals"
+  reading_time_minutes: 10
+  timezone: "Asia/Kolkata"
+  default_delivery_time: "07:00"
+
+# AI Model Configuration
+ai:
+  provider: "gemini" # options: "gemini", "openai"
+  model: "gemini-3.8-flash" # Current fast balanced Gemini model (or gemini-2.5-flash fallback if needed)
+  fallback_model: "gemini-2.5-flash"
+  temperature: 0.2
+  max_output_tokens: 8192
+
+# Section quotas and story balance
+content:
+  top_stories_count: 5
+  operations_stories_count: 3
+  marketing_stories_count: 3
+  strategy_finance_stories_count: 3
+  tech_ai_stories_count: 2
+  global_business_stories_count: 2
+  india_business_stories_count: 3
+  include_lesson_of_day: true
+  include_60_second_scan: true
+  max_total_stories: 15
+
+# Story Ranking & Scoring Weights (Percentages summing to 100)
+ranking:
+  weights:
+    business_impact: 0.25
+    management_relevance: 0.20
+    operations_relevance: 0.15
+    marketing_relevance: 0.15
+    strategic_importance: 0.10
+    recency: 0.10
+    novelty: 0.05
+  threshold_min_score: 0.35 # Candidate stories below this score are discarded
+  history_retention_days: 14 # Stories covered in past N days are excluded
+
+# Filter Rules (Active Noise Elimination)
+filters:
+  exclude_keywords:
+    - "horoscope"
+    - "astrology"
+    - "celebrity gossip"
+    - "box office collection"
+    - "viral video"
+    - "dating rumors"
+    - "trailer release"
+    - "cricket score"
+    - "ipl match highlights"
+    - "lottery result"
+    - "red carpet"
+  require_business_signals: true
+
+# Source Preferences & Feeds
+news_sources:
+  max_age_hours: 36
+  google_news_queries:
+    operations:
+      - 'supply chain OR logistics OR procurement OR "inventory management" when:2d'
+      - '"manufacturing operations" OR "industrial automation" OR "last-mile delivery" when:2d'
+      - '"nearshoring" OR "reshoring" OR "India manufacturing" OR "PLI scheme" when:2d'
+    marketing:
+      - '"brand strategy" OR "customer acquisition cost" OR "consumer behavior" when:2d'
+      - '"digital marketing" OR "pricing strategy" OR "D2C" OR "ad tech" when:2d'
+      - '"Gen Z trends" OR "influencer marketing" OR "customer retention" when:2d'
+    strategy_finance:
+      - 'merger OR acquisition OR "corporate restructuring" OR "business model" when:2d'
+      - '"private equity" OR "venture capital" OR "interest rates" OR "GDP growth" when:2d'
+    tech_ai:
+      - '"enterprise AI" OR "generative AI in business" OR "enterprise software" when:2d'
+      - '"cloud computing" OR "automation in business" OR "cybersecurity strategy" when:2d'
+    india_business:
+      - '"Reserve Bank of India" OR "SEBI" OR "Indian startups" OR "Reliance" OR "Tata" when:2d'
+      - '"India retail" OR "quick commerce India" OR "BSE Sensex" OR "NSE Nifty" when:2d'
+    global_business:
+      - '"global trade" OR "tariffs" OR "European Central Bank" OR "China manufacturing" when:2d'
+  
+  # Reputable direct RSS feeds
+  direct_rss_feeds:
+    - name: "CNBC Top Business"
+      url: "https://search.cnbc.com/rs/search/combinedlist/view.xml?partnerId=wrss01&id=10001147"
+      category: "strategy_finance"
+      weight: 1.15
+    - name: "LiveMint Companies"
+      url: "https://www.livemint.com/rss/companies"
+      category: "india_business"
+      weight: 1.2
+    - name: "LiveMint Industry"
+      url: "https://www.livemint.com/rss/industry"
+      category: "operations"
+      weight: 1.2
+    - name: "Economic Times Corporate"
+      url: "https://economictimes.indiatimes.com/news/company/corporate-trends/rssfeeds/2143429.cms"
+      category: "india_business"
+      weight: 1.1
+    - name: "Supply Chain Brain"
+      url: "https://www.supplychainbrain.com/rss/articles"
+      category: "operations"
+      weight: 1.3
+    - name: "Marketing Dive"
+      url: "https://www.marketingdive.com/feeds/news/"
+      category: "marketing"
+      weight: 1.3

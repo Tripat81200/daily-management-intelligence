@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Management Intelligence - Tuesday, October 06, 2026</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f1f5f9;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      color: #1e293b;
+      -webkit-font-smoothing: antialiased;
+      line-height: 1.6;
+    }
+    table {
+      border-collapse: collapse;
+    }
+    .wrapper {
+      width: 100%;
+      background-color: #f1f5f9;
+      padding: 24px 8px;
+    }
+    .container {
+      max-width: 660px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
+      border: 1px solid #e2e8f0;
+    }
+    .header {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      color: #ffffff;
+      padding: 32px 28px;
+      text-align: left;
+      border-bottom: 3px solid #3b82f6;
+    }
+    .edition-badge {
+      display: inline-block;
+      background-color: #2563eb;
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin-bottom: 12px;
+    }
+    .header h1 {
+      margin: 0 0 8px 0;
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      line-height: 1.25;
+      color: #ffffff;
+    }
+    .header-meta {
+      font-size: 13px;
+      color: #94a3b8;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 8px;
+    }
+    .content-body {
+      padding: 28px;
+    }
+    .big-picture-box {
+      background-color: #f8fafc;
+      border-left: 4px solid #2563eb;
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 28px;
+    }
+    .big-picture-title {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #2563eb;
+      margin-bottom: 6px;
+    }
+    .big-picture-text {
+      font-size: 15px;
+      color: #334155;
+      margin: 0;
+      line-height: 1.6;
+    }
+    .section-header {
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 8px;
+      margin: 32px 0 18px 0;
+    }
+    .section-title {
+      font-size: 17px;
+      font-weight: 800;
+      letter-spacing: -0.3px;
+      color: #0f172a;
+      display: inline-block;
+      margin: 0;
+      text-transform: uppercase;
+    }
+    .section-badge {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+    .badge-ops { background-color: #e0f2fe; color: #0369a1; }
+    .badge-mkt { background-color: #fef3c7; color: #b45309; }
+    .badge-strat { background-color: #ede9fe; color: #6d28d9; }
+    .badge-tech { background-color: #ecfdf5; color: #047857; }
+    .badge-india { background-color: #ffedd5; color: #c2410c; }
+    .badge-global { background-color: #f1f5f9; color: #475569; }
+
+    .card {
+      background-color: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 18px;
+      margin-bottom: 18px;
+      transition: all 0.2s ease;
+    }
+    .card-headline {
+      font-size: 16px;
+      font-weight: 700;
+      color: #0f172a;
+      margin: 0 0 10px 0;
+      line-height: 1.4;
+    }
+    .card-block {
+      margin-bottom: 8px;
+      font-size: 14px;
+      line-height: 1.55;
+      color: #334155;
+    }
+    .card-block strong {
+      color: #0f172a;
+      font-weight: 600;
+    }
+    .card-adv {
+      background-color: #eff6ff;
+      border-radius: 6px;
+      padding: 10px 12px;
+      margin-top: 10px;
+      font-size: 13px;
+      color: #1e40af;
+      line-height: 1.5;
+    }
+    .source-tag {
+      display: block;
+      margin-top: 10px;
+      font-size: 12px;
+      color: #64748b;
+    }
+    .source-tag a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .source-tag a:hover {
+      text-decoration: underline;
+    }
+
+    .lesson-box {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      color: #ffffff;
+      padding: 24px;
+      border-radius: 10px;
+      margin: 36px 0 24px 0;
+      border-left: 5px solid #10b981;
+    }
+    .lesson-tag {
+      color: #10b981;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 6px;
+    }
+    .lesson-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: #ffffff;
+      margin: 0 0 10px 0;
+    }
+    .lesson-text {
+      font-size: 14px;
+      color: #cbd5e1;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    .scan-box {
+      background-color: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 18px 20px;
+      margin: 28px 0;
+    }
+    .scan-item {
+      font-size: 13px;
+      padding: 6px 0;
+      border-bottom: 1px dashed #e2e8f0;
+      color: #334155;
+    }
+    .scan-item:last-child {
+      border-bottom: none;
+    }
+    .scan-pillar {
+      font-weight: 700;
+      color: #0f172a;
+      display: inline-block;
+      width: 100px;
+    }
+
+    .footer {
+      background-color: #0f172a;
+      color: #94a3b8;
+      padding: 24px;
+      text-align: center;
+      font-size: 12px;
+      border-top: 1px solid #1e293b;
+    }
+    .footer a {
+      color: #60a5fa;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      
+      <!-- HEADER -->
+      <div class="header">
+        <span class="edition-badge">Executive Daily Briefing</span>
+        <h1>Daily Management Intelligence</h1>
+        <div style="font-size: 14px; color: #cbd5e1; margin-bottom: 8px;">Executive Briefing for MBA Leaders & Strategy Professionals</div>
+        <div class="header-meta">
+          <span>📅 Tuesday, October 06, 2026</span>
+          <span>⏱️ ~10 min read</span>
+        </div>
+      </div>
+
+      <div class="content-body">
+        
+        <!-- TODAY'S BIG PICTURE -->
+        <div class="big-picture-box">
+          <div class="big-picture-title">🌐 Today's Big Picture</div>
+          <p class="big-picture-text">Global business leaders are navigating tightening capital cycles and supply-chain reconfiguration. Corporate strategy is decisively pivoting toward operational resilience, cost predictability, and disciplined customer acquisition, with India emerging as a pivotal growth and manufacturing hub.</p>
+        </div>
+
+        <!-- TOP 5 — MUST KNOW -->
+        <div class="section-header">
+          <h2 class="section-title">🔥 TOP 5 — MUST KNOW</h2>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">1. Paramount Skydance completes $110 billion Warner Bros Discovery deal: David Ellison takes control of new Hollywood giant</h3>
+          <div class="card-block"><strong>What happened:</strong> The Warner Bros Discovery acquisition now gives CEO Ellison control over an entertainment portfolio that includes some of the world's most valuable film, television and streaming properties.</div>
+          <div class="card-block"><strong>Why it matters:</strong> Demonstrates evolving market dynamics and reallocation of corporate capital in response to shifting industry demand.</div>
+          <div class="card-block"><strong>Management takeaway:</strong> Leaders must continuously stress-test unit economics and operational flexibility against structural industry shifts.</div>
+          
+          <div class="card-adv">
+            <strong>💡 Second-Order Implication:</strong> Organizations adapting supply networks early capture first-mover margin advantages.
+          </div>
+          
+          <span class="source-tag">Source: <a href="https://www.livemint.com/companies/news/paramount-skydance-completes-110-billion-warner-bros-discovery-deal-david-ellison-takes-control-of-new-hollywood-giant-11791291245408.html" target="_blank">LiveMint Companies</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">2. CH Robinson to Buy Logistics Firm RXO in $5.8 Billion Deal</h3>
+          <div class="card-block"><strong>What happened:</strong> RXO shareholders are expected to own 11% of the combined company upon closing.</div>
+          <div class="card-block"><strong>Why it matters:</strong> Demonstrates evolving market dynamics and reallocation of corporate capital in response to shifting industry demand.</div>
+          <div class="card-block"><strong>Management takeaway:</strong> Leaders must continuously stress-test unit economics and operational flexibility against structural industry shifts.</div>
+          
+          <div class="card-adv">
+            <strong>💡 Second-Order Implication:</strong> Organizations adapting supply networks early capture first-mover margin advantages.
+          </div>
+          
+          <span class="source-tag">Source: <a href="https://www.supplychainbrain.com/articles/44964-ch-robinson-to-buy-logistics-firm-rxo-in-58-billion-deal" target="_blank">Supply Chain Brain</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">3. CMA Closes $1.4B Deal to Acquire FedEx Supply Chain</h3>
+          <div class="card-block"><strong>What happened:</strong> The combined business between CMA and FedEx Supply Chain will operate 150 warehouses, growing CEVA's North American workforce to 20,000 people across 240 locations.</div>
+          <div class="card-block"><strong>Why it matters:</strong> Demonstrates evolving market dynamics and reallocation of corporate capital in response to shifting industry demand.</div>
+          <div class="card-block"><strong>Management takeaway:</strong> Leaders must continuously stress-test unit economics and operational flexibility against structural industry shifts.</div>
+          
+          <div class="card-adv">
+            <strong>💡 Second-Order Implication:</strong> Organizations adapting supply networks early capture first-mover margin advantages.
+          </div>
+          
+          <span class="source-tag">Source: <a href="https://www.supplychainbrain.com/articles/44966-cma-closes-14b-deal-to-acquire-fedex-supply-chain" target="_blank">Supply Chain Brain</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">4. 'AI raises the floor, people raise the ceiling': PwC US CEO on India venture, Big Four race and GCC push</h3>
+          <div class="card-block"><strong>What happened:</strong> In a bold move to enhance global integration, PwC is merging its Indian consulting operations with its US counterparts. This monumental shift, led by Sanjeev Krishan, will unite around 40,000 professionals in a shared mission focused on artificial intelligence and technology investments. Expected to rake in $1.5 billion in initial revenue, this merger marks a significant trend in the consulting industry, prioritizing advanced technology integration and local-global collaboration.</div>
+          <div class="card-block"><strong>Why it matters:</strong> Demonstrates evolving market dynamics and reallocation of corporate capital in response to shifting industry demand.</div>
+          <div class="card-block"><strong>Management takeaway:</strong> Leaders must continuously stress-test unit economics and operational flexibility against structural industry shifts.</div>
+          
+          <div class="card-adv">
+            <strong>💡 Second-Order Implication:</strong> Organizations adapting supply networks early capture first-mover margin advantages.
+          </div>
+          
+          <span class="source-tag">Source: <a href="https://economictimes.indiatimes.com/news/company/corporate-trends/ai-raises-the-floor-people-raise-the-ceiling-pwc-us-ceo-on-india-venture-big-four-race-and-gcc-push/articleshow/134716168.cms" target="_blank">Economic Times Corporate</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">5. Canada Trade Surplus Grows by Over 430% in August</h3>
+          <div class="card-block"><strong>What happened:</strong> According to government data released on October 6, Canada's trade surplus grew from $787 in July to four-year high of $4.2 billion in August.</div>
+          <div class="card-block"><strong>Why it matters:</strong> Demonstrates evolving market dynamics and reallocation of corporate capital in response to shifting industry demand.</div>
+          <div class="card-block"><strong>Management takeaway:</strong> Leaders must continuously stress-test unit economics and operational flexibility against structural industry shifts.</div>
+          
+          <div class="card-adv">
+            <strong>💡 Second-Order Implication:</strong> Organizations adapting supply networks early capture first-mover margin advantages.
+          </div>
+          
+          <span class="source-tag">Source: <a href="https://www.supplychainbrain.com/articles/44974-canada-trade-surplus-grows-by-over-430-in-august" target="_blank">Supply Chain Brain</a></span>
+        </div>
+        
+
+        <!-- OPERATIONS INTELLIGENCE -->
+        <div class="section-header">
+          <h2 class="section-title">⚙️ OPERATIONS INTELLIGENCE</h2>
+          <span class="section-badge badge-ops">Special Focus</span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">Axis Bank’s Sanjeev Moghe resigns amid banking sector leadership churn</h3>
+          <div class="card-block"><strong>What happened:</strong> Axis Bank executive Sanjeev Moghe has resigned, making it the lender's second senior management exit in just over a month amid wider industry executive reshuffles.&nbsp;</div>
+          <div class="card-block"><strong>Operational impact:</strong> Directly impacts delivery lead times, buffer inventory levels, and logistics cost structures.</div>
+          <div class="card-block"><strong>Operational lesson:</strong> Decentralized warehousing and process automation mitigate single-point supply chain bottlenecks.</div>
+          <span class="source-tag">Source: <a href="https://www.livemint.com/industry/banking/axis-bank-s-sanjeev-moghe-resigns-amid-banking-sector-leadership-churn-11791204957167.html" target="_blank">LiveMint Industry</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">Gurgaon homebuyer waits decade for flat; builder ordered to refund ₹1.73 crore with 12% interest</h3>
+          <div class="card-block"><strong>What happened:</strong> The commission's decision took into account the circumstances surrounding the purchase and the prolonged failure to hand over possession</div>
+          <div class="card-block"><strong>Operational impact:</strong> Directly impacts delivery lead times, buffer inventory levels, and logistics cost structures.</div>
+          <div class="card-block"><strong>Operational lesson:</strong> Decentralized warehousing and process automation mitigate single-point supply chain bottlenecks.</div>
+          <span class="source-tag">Source: <a href="https://www.livemint.com/industry/real-estate/gurgaon-homebuyer-waits-decade-for-flat-builder-ordered-to-refund-rs-1-73-crore-with-12-interest-11791308834763.html" target="_blank">LiveMint Industry</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">Shatabdi Express Wheel Skid: Why has Railway Board ordered a probe into wet-track braking</h3>
+          <div class="card-block"><strong>What happened:</strong> The Railway Board has asked RDSO to investigate a WAP-5 locomotive wheel skid on wet rails during emergency braking by a New Delhi-Chandigarh Shatabdi, and review track fencing after cattle incursion.</div>
+          <div class="card-block"><strong>Operational impact:</strong> Directly impacts delivery lead times, buffer inventory levels, and logistics cost structures.</div>
+          <div class="card-block"><strong>Operational lesson:</strong> Decentralized warehousing and process automation mitigate single-point supply chain bottlenecks.</div>
+          <span class="source-tag">Source: <a href="https://www.livemint.com/industry/infrastructure/shatabdi-express-wheel-skid-why-has-railway-board-ordered-a-probe-into-wet-track-braking-11791305132981.html" target="_blank">LiveMint Industry</a></span>
+        </div>
+        
+
+        <!-- MARKETING INTELLIGENCE -->
+        <div class="section-header">
+          <h2 class="section-title">📣 MARKETING INTELLIGENCE</h2>
+          <span class="section-badge badge-mkt">Special Focus</span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">Top marketing conferences to attend in 2027</h3>
+          <div class="card-block"><strong>What happened:</strong> A list of all the must-attend events for advertising executives looking to network and refine their strategies across culture, technology and more.</div>
+          <div class="card-block"><strong>Marketing/Customer impact:</strong> Reflects shifting consumer acquisition strategies and customer lifetime value optimization.</div>
+          <div class="card-block"><strong>Marketing lesson:</strong> Sustainable brand moats depend on organic retention and community trust rather than ad-spend arbitrage.</div>
+          <span class="source-tag">Source: <a href="https://www.marketingdive.com/news/top-marketing-events-2027/831301/" target="_blank">Marketing Dive</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">From Mr. & Mrs. Smith to Hyatt Luxury, Tamara Lohan on Brand Strategy and Expansion</h3>
+          <div class="card-block"><strong>What happened:</strong> From Mr. & Mrs. Smith to Hyatt Luxury, Tamara Lohan on Brand Strategy and Expansion WWD</div>
+          <div class="card-block"><strong>Marketing/Customer impact:</strong> Reflects shifting consumer acquisition strategies and customer lifetime value optimization.</div>
+          <div class="card-block"><strong>Marketing lesson:</strong> Sustainable brand moats depend on organic retention and community trust rather than ad-spend arbitrage.</div>
+          <span class="source-tag">Source: <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxOOWUxRHN5enZyQm9BaW1jM3pVNFRNTjQ2a0VIb3oxQVdPVnFGRVlWNUo1RHc1aDZIQlJtaGo0SjJJUjhYdTFUVTVtTTlZOVVEZFkzZzlsczZid0J2S2oydkJqNUVkNU5JbU1rQ3BoWGY2c29ncm5FZGJMYlBMOVhPZGV2eWpjM2NVeUtxd0EzZnVPaEhxbk1MUldkWTVEOC11UWxMS3lB?oc=5" target="_blank">WWD</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">Why Panda Express is embracing an ‘always-on’ gaming strategy</h3>
+          <div class="card-block"><strong>What happened:</strong> The brand is adopting a more permanent strategy when it comes to gaming, including the release of its Roblox game as a persistent virtual destination.</div>
+          <div class="card-block"><strong>Marketing/Customer impact:</strong> Reflects shifting consumer acquisition strategies and customer lifetime value optimization.</div>
+          <div class="card-block"><strong>Marketing lesson:</strong> Sustainable brand moats depend on organic retention and community trust rather than ad-spend arbitrage.</div>
+          <span class="source-tag">Source: <a href="https://www.marketingdive.com/news/why-panda-express-is-embracing-an-always-on-gaming-strategy/832051/" target="_blank">Marketing Dive</a></span>
+        </div>
+        
+
+        <!-- STRATEGY & FINANCE -->
+        <div class="section-header">
+          <h2 class="section-title">📊 STRATEGY & FINANCE</h2>
+          <span class="section-badge badge-strat">Core</span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">How Poppi keeps its cultural marketing fizz without over-relying on data</h3>
+          <div class="card-block"><strong>Development:</strong> Partnerships ranging from the Dallas Cowboys to New York Fashion Week designers are largely driven by gut instinct, Head of Culture Sophia Sesto says.</div>
+          <div class="card-block"><strong>Strategic takeaway:</strong> Prudent balance sheet management and capital discipline outweigh speculative growth.</div>
+          <span class="source-tag">Source: <a href="https://www.marketingdive.com/news/how-poppi-keeps-its-cultural-marketing-fizz-without-over-relying-on-data/832058/" target="_blank">Marketing Dive</a></span>
+        </div>
+        
+
+        <!-- TECHNOLOGY & AI -->
+        <div class="section-header">
+          <h2 class="section-title">🤖 TECHNOLOGY & AI</h2>
+          <span class="section-badge badge-tech">Enterprise Impact</span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">Defence manufacturing startup Sanlayan in talks to raise $35-40 million at $200 million valuation</h3>
+          <div class="card-block"><strong>Development:</strong> Defence electronics maker Sanlayan has begun raising $35-40 million at a targeted valuation of $150-200 million, with the fresh capital likely to fund acquisitions and R&amp;D.</div>
+          <div class="card-block"><strong>Business implication:</strong> Companies moving from experimental AI proofs-of-concept to measured workflow automation unlock measurable EBITDA gains.</div>
+          <span class="source-tag">Source: <a href="https://www.livemint.com/companies/sanlayan-fundraise-defence-manufacturing-startup-11790839385837.html" target="_blank">LiveMint Companies</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">The economics of India's biggest export industry go topsy-turvy</h3>
+          <div class="card-block"><strong>Development:</strong> India’s $315-billion IT industry faces a structural shift as AI boosts productivity but puts pressure on pricing, revenue and entry-level hiring. Clients are demanding more output for less, while spending shifts towards AI, cloud and in-house capabilities.</div>
+          <div class="card-block"><strong>Business implication:</strong> Companies moving from experimental AI proofs-of-concept to measured workflow automation unlock measurable EBITDA gains.</div>
+          <span class="source-tag">Source: <a href="https://economictimes.indiatimes.com/news/company/corporate-trends/hcltech-tcs-the-economics-of-indias-biggest-export-industry-goes-topsy-turvy/articleshow/134730672.cms" target="_blank">Economic Times Corporate</a></span>
+        </div>
+        
+
+        <!-- INDIA BUSINESS -->
+        <div class="section-header">
+          <h2 class="section-title">🇮🇳 INDIA BUSINESS</h2>
+          <span class="section-badge badge-india">Emerging Market</span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">RPSG Group weighs 15-20% stake sale in IPL team Lucknow Super Giants</h3>
+          <div class="card-block"><strong>Development:</strong> RPSG is seeking a valuation of $1.5 billion to $2 billion for the Lucknow franchise, which it acquired for $800 million in November 2021.</div>
+          <div class="card-block"><strong>Market insight:</strong> India's domestic consumption resilience and manufacturing policy incentives continue driving capacity additions.</div>
+          <span class="source-tag">Source: <a href="https://www.livemint.com/companies/rpsg-group-stake-sale-ipl-franchise-lucknow-super-giants-11791265884438.html" target="_blank">LiveMint Companies</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">India’s infrastructure challenge shifts from raising capital to making projects investable, says Deloitte</h3>
+          <div class="card-block"><strong>Development:</strong> Complex regulations, limited private participation and budget constraints are making project preparation and risk-sharing increasingly critical, while AI and digital technologies reshape infrastructure investment.</div>
+          <div class="card-block"><strong>Market insight:</strong> India's domestic consumption resilience and manufacturing policy incentives continue driving capacity additions.</div>
+          <span class="source-tag">Source: <a href="https://www.livemint.com/industry/indias-infrastructure-challenge-shifts-from-raising-capital-to-making-projects-investable-says-deloitte-11791203958309.html" target="_blank">LiveMint Industry</a></span>
+        </div>
+        
+
+        <!-- GLOBAL BUSINESS -->
+        <div class="section-header">
+          <h2 class="section-title">🌎 GLOBAL BUSINESS</h2>
+          <span class="section-badge badge-global">Macro</span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">AI is changing entertainment. Here’s what investors are betting on</h3>
+          <div class="card-block"><strong>Development:</strong> AI is reshaping entertainment economics, but investors aren’t just betting on AI-generated content. The bigger prize is scalable monetization backed by defensible IP, audiences, data, distribution and talent relationships.</div>
+          <div class="card-block"><strong>Macro impact:</strong> Cross-border supply chains face evolving regulatory and geopolitical realignments.</div>
+          <span class="source-tag">Source: <a href="https://www.livemint.com/industry/media/ai-media-entertainment-investment-11791193482178.html" target="_blank">LiveMint Industry</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">Monster, PepsiCo and Campa gets interim relief over ‘energy drink’ label, but cannot make more</h3>
+          <div class="card-block"><strong>Development:</strong> Monster Energy, PepsiCo and Reliance Consumer Products have won interim relief from the Delhi High Court against FSSAI's move to stop beverage makers from using the term ‘energy drink’ on certain caffeinated products.&nbsp;</div>
+          <div class="card-block"><strong>Macro impact:</strong> Cross-border supply chains face evolving regulatory and geopolitical realignments.</div>
+          <span class="source-tag">Source: <a href="https://www.livemint.com/industry/retail/monster-pepsico-campa-get-delhi-hc-relief-against-fssai-energy-drink-label-ban-11791286344573.html" target="_blank">LiveMint Industry</a></span>
+        </div>
+        
+
+        <!-- THE MANAGEMENT LESSON OF THE DAY -->
+        
+        <div class="lesson-box">
+          <div class="lesson-tag">🧠 THE MANAGEMENT LESSON OF THE DAY</div>
+          <div class="lesson-title">Operational Resilience as a Strategic Competitive Moat</div>
+          <p class="lesson-text">Historically, operational efficiency focused narrowly on just-in-time inventory and lowest-cost sourcing. Today, top-tier management treats buffer capacity, multisourcing, and regional logistics as competitive moats. When supply shocks occur, firms with resilient operations maintain fulfillment while competitors stall.</p>
+        </div>
+        
+
+        <!-- 60-SECOND SCAN -->
+        
+        <div class="scan-box">
+          <div style="font-size: 14px; font-weight: 800; text-transform: uppercase; margin-bottom: 12px; color: #0f172a;">
+            ⚡ 60-SECOND SCAN
+          </div>
+          
+          <div class="scan-item">
+            <span class="scan-pillar">[Operations]</span>
+            <span>Logistics networks shifting to regional fulfillment nodes</span>
+          </div>
+          
+          <div class="scan-item">
+            <span class="scan-pillar">[Marketing]</span>
+            <span>Brands shifting spend toward retention and zero-party customer data</span>
+          </div>
+          
+          <div class="scan-item">
+            <span class="scan-pillar">[Strategy]</span>
+            <span>Corporates rationalizing non-core assets to fund strategic tech upgrades</span>
+          </div>
+          
+          <div class="scan-item">
+            <span class="scan-pillar">[Finance]</span>
+            <span>Disciplined margin management replaces debt-funded customer acquisition</span>
+          </div>
+          
+          <div class="scan-item">
+            <span class="scan-pillar">[Technology]</span>
+            <span>Enterprise AI spending refocuses on measurable operational ROI</span>
+          </div>
+          
+          <div class="scan-item">
+            <span class="scan-pillar">[India]</span>
+            <span>Domestic manufacturing incentives accelerate industrial CAPEX</span>
+          </div>
+          
+        </div>
+        
+
+      </div>
+
+      <!-- FOOTER -->
+      <div class="footer">
+        <p style="margin: 0 0 6px 0; font-weight: 600;">Daily Management Intelligence</p>
+        <p style="margin: 0 0 6px 0;">Curated and synthesized via cloud-native AI pipeline for MBA leaders.</p>
+        <p style="margin: 0; color: #64748b;">Automated daily execution • Zero manual intervention required</p>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
