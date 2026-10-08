@@ -47,14 +47,16 @@ class AIClient:
             raise ValueError("GEMINI_API_KEY is not configured.")
 
         # Try google-genai SDK first if available
+        candidate_models = []
+        for cand in [self.model, "gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"]:
+            if cand and cand not in candidate_models:
+                candidate_models.append(cand)
+
         try:
             from google import genai
             from google.genai import types
 
             client = genai.Client(api_key=self.gemini_api_key)
-            # Try configured model, fallback to gemini-2.5-flash if needed
-            candidate_models = [self.model, "gemini-2.5-flash", "gemini-1.5-flash"]
-            
             last_err = None
             for m in candidate_models:
                 try:
@@ -79,7 +81,7 @@ class AIClient:
             logger.info(f"Using direct REST fallback for Gemini: {e}")
 
         # Direct REST API fallback for rock-solid stability
-        url_models = [self.model, "gemini-2.5-flash", "gemini-1.5-flash"]
+        url_models = candidate_models
         for attempt in range(retries):
             for m in url_models:
                 api_url = (

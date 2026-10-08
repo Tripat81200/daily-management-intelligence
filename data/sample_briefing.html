@@ -1,1 +1,688 @@
-<html><body><h1>Test Newsletter</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+  <title>Daily Management Intelligence - Thursday, October 08, 2026</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      supported-color-schemes: light dark;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f8fafc;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      color: #1e293b;
+      -webkit-font-smoothing: antialiased;
+      line-height: 1.6;
+    }
+    table {
+      border-collapse: collapse;
+    }
+    .wrapper {
+      width: 100%;
+      background-color: #f8fafc;
+      padding: 24px 8px;
+    }
+    .container {
+      max-width: 660px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
+      border: 1px solid #e2e8f0;
+    }
+    .header {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      color: #ffffff;
+      padding: 32px 28px;
+      text-align: left;
+      border-bottom: 3px solid #3b82f6;
+    }
+    .edition-badge {
+      display: inline-block;
+      background-color: #2563eb;
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin-bottom: 12px;
+    }
+    .header h1 {
+      margin: 0 0 8px 0;
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      line-height: 1.25;
+      color: #ffffff;
+    }
+    .header-meta {
+      font-size: 13px;
+      color: #94a3b8;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 8px;
+    }
+    .content-body {
+      padding: 28px;
+    }
+    .big-picture-box {
+      background-color: #f1f5f9;
+      border-left: 4px solid #2563eb;
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 28px;
+    }
+    .big-picture-title {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #2563eb;
+      margin-bottom: 6px;
+    }
+    .big-picture-text {
+      font-size: 15px;
+      color: #1e293b;
+      margin: 0;
+      line-height: 1.6;
+    }
+    .section-header {
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 8px;
+      margin: 32px 0 18px 0;
+    }
+    .section-title {
+      font-size: 17px;
+      font-weight: 800;
+      letter-spacing: -0.3px;
+      color: #0f172a;
+      display: inline-block;
+      margin: 0;
+      text-transform: uppercase;
+    }
+    .section-badge {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-left: 8px;
+      vertical-align: middle;
+      text-transform: uppercase;
+    }
+    .badge-ops { background-color: #e0f2fe; color: #0369a1; }
+    .badge-mkt { background-color: #fef3c7; color: #b45309; }
+    .badge-strat { background-color: #ede9fe; color: #6d28d9; }
+    .badge-tech { background-color: #ecfdf5; color: #047857; }
+    .badge-india { background-color: #ffedd5; color: #c2410c; }
+    .badge-global { background-color: #f1f5f9; color: #475569; }
+    .badge-concept { background-color: #fef08a; color: #854d0e; }
+
+    .card {
+      background-color: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 18px;
+      margin-bottom: 18px;
+    }
+    .card-headline {
+      font-size: 16px;
+      font-weight: 700;
+      color: #0f172a;
+      margin: 0 0 10px 0;
+      line-height: 1.4;
+    }
+    .card-block {
+      margin-bottom: 8px;
+      font-size: 14px;
+      line-height: 1.55;
+      color: #334155;
+    }
+    .card-block strong {
+      color: #0f172a;
+      font-weight: 700;
+    }
+    .card-adv {
+      background-color: #f0f7ff;
+      border-left: 3px solid #3b82f6;
+      border-radius: 4px;
+      padding: 10px 14px;
+      margin-top: 10px;
+      font-size: 13px;
+      color: #1e3a8a;
+      line-height: 1.5;
+    }
+    .card-adv strong {
+      color: #1d4ed8;
+      font-weight: 700;
+    }
+    .source-tag {
+      display: block;
+      margin-top: 10px;
+      font-size: 12px;
+      color: #64748b;
+    }
+    .source-tag a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .source-tag a:hover {
+      text-decoration: underline;
+    }
+
+    .lesson-box {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      color: #ffffff;
+      padding: 24px;
+      border-radius: 10px;
+      margin: 36px 0 24px 0;
+      border-left: 5px solid #10b981;
+    }
+    .lesson-tag {
+      color: #10b981;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 6px;
+    }
+    .lesson-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: #ffffff;
+      margin: 0 0 10px 0;
+    }
+    .lesson-text {
+      font-size: 14px;
+      color: #e2e8f0;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    .scan-box {
+      background-color: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 18px 20px;
+      margin: 28px 0;
+    }
+    .scan-item {
+      font-size: 13px;
+      padding: 8px 0;
+      border-bottom: 1px dashed #e2e8f0;
+      color: #334155;
+    }
+    .scan-item:last-child {
+      border-bottom: none;
+    }
+    .scan-pillar {
+      font-weight: 700;
+      color: #0f172a;
+      display: inline-block;
+      width: 110px;
+    }
+
+    .footer {
+      background-color: #0f172a;
+      color: #94a3b8;
+      padding: 24px;
+      text-align: center;
+      font-size: 12px;
+      border-top: 1px solid #1e293b;
+    }
+    .footer a {
+      color: #60a5fa;
+      text-decoration: none;
+    }
+
+    /* =========================================================================
+       DARK THEME OPTIMIZATION (Apple Mail, iOS, Outlook, Android)
+       ========================================================================= */
+    @media (prefers-color-scheme: dark) {
+      body, .wrapper {
+        background-color: #0b0f19 !important;
+        color: #f1f5f9 !important;
+      }
+      .container {
+        background-color: #111827 !important;
+        border-color: #1f2937 !important;
+      }
+      .card {
+        background-color: #1e293b !important;
+        border-color: #334155 !important;
+      }
+      .card-headline {
+        color: #f8fafc !important;
+      }
+      .card-block {
+        color: #cbd5e1 !important;
+      }
+      .card-block strong {
+        color: #ffffff !important;
+      }
+      .big-picture-box {
+        background-color: #1e293b !important;
+        border-left-color: #3b82f6 !important;
+      }
+      .big-picture-title {
+        color: #60a5fa !important;
+      }
+      .big-picture-text {
+        color: #f1f5f9 !important;
+      }
+      .section-header {
+        border-bottom-color: #334155 !important;
+      }
+      .section-title {
+        color: #f8fafc !important;
+      }
+      .card-adv {
+        background-color: #172554 !important;
+        border-left-color: #60a5fa !important;
+        color: #bfdbfe !important;
+      }
+      .card-adv strong {
+        color: #93c5fd !important;
+      }
+      .source-tag {
+        color: #94a3b8 !important;
+      }
+      .source-tag a {
+        color: #60a5fa !important;
+      }
+      .scan-box {
+        background-color: #1e293b !important;
+        border-color: #334155 !important;
+      }
+      .scan-item {
+        color: #cbd5e1 !important;
+        border-bottom-color: #334155 !important;
+      }
+      .scan-pillar {
+        color: #f8fafc !important;
+      }
+      .badge-ops { background-color: #0c4a6e !important; color: #7dd3fc !important; }
+      .badge-mkt { background-color: #78350f !important; color: #fde68a !important; }
+      .badge-strat { background-color: #4c1d95 !important; color: #ddd6fe !important; }
+      .badge-tech { background-color: #064e3b !important; color: #a7f3d0 !important; }
+      .badge-india { background-color: #7c2d12 !important; color: #fed7aa !important; }
+      .badge-global { background-color: #334155 !important; color: #e2e8f0 !important; }
+      .badge-concept { background-color: #713f12 !important; color: #fef08a !important; }
+    }
+
+    /* Outlook Dark Mode Compatibility */
+    [data-ogsc] body, [data-ogsc] .wrapper { background-color: #0b0f19 !important; color: #f1f5f9 !important; }
+    [data-ogsc] .container { background-color: #111827 !important; border-color: #1f2937 !important; }
+    [data-ogsc] .card { background-color: #1e293b !important; border-color: #334155 !important; }
+    [data-ogsc] .card-headline { color: #f8fafc !important; }
+    [data-ogsc] .card-block { color: #cbd5e1 !important; }
+    [data-ogsc] .card-adv { background-color: #172554 !important; color: #bfdbfe !important; }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      
+      <!-- HEADER -->
+      <div class="header">
+        <span class="edition-badge">Executive Daily Briefing</span>
+        <h1>Daily Management Intelligence</h1>
+        <div style="font-size: 14px; color: #cbd5e1; margin-bottom: 8px;">Executive Briefing for MBA Leaders & Strategy Professionals</div>
+        <div class="header-meta">
+          <span>📅 Thursday, October 08, 2026</span>
+          <span>⏱️ ~10 min read</span>
+        </div>
+      </div>
+
+      <div class="content-body">
+        
+        <!-- TODAY'S BIG PICTURE -->
+        <div class="big-picture-box">
+          <div class="big-picture-title">🌐 Today's Big Picture</div>
+          <p class="big-picture-text">Corporate leadership teams are aggressively prioritizing operational resilience and unit economic discipline. As the era of cheap capital recedes, competitive advantages are increasingly determined by supply chain redundancy, first-party customer ownership, and measured enterprise automation.</p>
+        </div>
+
+        <!-- TOP 5 — MUST KNOW -->
+        <div class="section-header">
+          <h2 class="section-title">🔥 TOP 5 — MUST KNOW</h2>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">1. Amazon layoffs: ‘Who’s next?’ Employees turn to Slack over severance, jobs, medical leave after fresh cuts</h3>
+          <div class="card-block"><strong>What happened:</strong> Amazon confirmed job cuts affecting fewer than 1,000 employees across various teams. This follows a larger layoff of 30,000 jobs last year. The reductions come amid CEO Andy Jassy's plans for a $220 billion AI investment, while the company seeks to better structure its Stores business.</div>
+          <div class="card-block"><strong>Why it matters:</strong> Demonstrates the principal-agent dynamic: structuring compensation to balance executive risk-taking against long-term equity dilution for external shareholders.</div>
+          <div class="card-block"><strong>Management takeaway:</strong> Equity vesting schedules must be tied to economic value added (EVA) and cash flows rather than short-term valuation spikes or vanity metrics.</div>
+          
+          <div class="card-adv">
+            <strong>💡 Second-Order Implication:</strong> Transparent, meritocratic talent governance insulates organizations from executive poaching while high compensation disparity without performance triggers rank-and-file disengagement.
+          </div>
+          
+          <span class="source-tag">Source: <a href="https://www.livemint.com/companies/amazon-layoffs-who-s-next-employees-turn-to-slack-over-severance-jobs-medical-leave-after-fresh-cuts-11791427029216.html" target="_blank">LiveMint Companies</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">2. Anta Completes €1.5 Billion Acquisition of 29% Stake in Puma; Ding Shizhong Discusses Multi-Brand Strategy Logic for the First Time</h3>
+          <div class="card-block"><strong>What happened:</strong> Anta Completes €1.5 Billion Acquisition of 29% Stake in Puma; Ding Shizhong Discusses Multi-Brand Strategy Logic for the First Time BigGo Finance</div>
+          <div class="card-block"><strong>Why it matters:</strong> Consolidation reshapes industry market share and tests whether capital allocation was justified or inflated by an M&A bidding war (the Winner's Curse).</div>
+          <div class="card-block"><strong>Management takeaway:</strong> Post-merger integration success hinges on operational culture and IT harmonization, not pro-forma spreadsheets. 70% of M&A fails to generate projected cost synergies.</div>
+          
+          <div class="card-adv">
+            <strong>💡 Second-Order Implication:</strong> The combined entity gains near-term pricing leverage over suppliers, but agile challengers can poach dissatisfied enterprise customers during messy multi-year integrations.
+          </div>
+          
+          <span class="source-tag">Source: <a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE50NEYyNHQyYVoydXI1Q24zTHU5Yk15RXhaZUM3MFk4dm1RM1RYcVRTTldNMkxqUUNObTMyaGs3Yk9kNmpUbEhydzhOUk5CUzVaZTJGRnZSd2xZSHg2cU5mV1JEOTlMYzQwQTJ3a0FGQnhaSXJBTmc?oc=5" target="_blank">BigGo Finance</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">3. Elon Musk loses $21 billion after SpaceX stock falls: Is he still a trillionaire?</h3>
+          <div class="card-block"><strong>What happened:</strong> Elon Musk's net worth dropped by over $21 billion to $1.03 trillion after SpaceX shares fell 2%. He remains the world's richest person. SpaceX is seeking to raise $40 billion for AI chip purchases amid rising credit risks, with a potential deal led by Apollo expected to close in 2027.</div>
+          <div class="card-block"><strong>Why it matters:</strong> Consolidation reshapes industry market share and tests whether capital allocation was justified or inflated by an M&A bidding war (the Winner's Curse).</div>
+          <div class="card-block"><strong>Management takeaway:</strong> Post-merger integration success hinges on operational culture and IT harmonization, not pro-forma spreadsheets. 70% of M&A fails to generate projected cost synergies.</div>
+          
+          <div class="card-adv">
+            <strong>💡 Second-Order Implication:</strong> The combined entity gains near-term pricing leverage over suppliers, but agile challengers can poach dissatisfied enterprise customers during messy multi-year integrations.
+          </div>
+          
+          <span class="source-tag">Source: <a href="https://www.livemint.com/companies/people/elon-musk-loses-21-billion-after-spacex-stock-falls-is-he-still-a-trillionaire-11791423059404.html" target="_blank">LiveMint Companies</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">4. Oil Shipping Costs Reach Dizzying New Highs on Hormuz Snarls</h3>
+          <div class="card-block"><strong>What happened:</strong> It now costs $77 million to hire a very large crude carrier to move U.S. oil to Asia, according to data from the Baltic Exchange.</div>
+          <div class="card-block"><strong>Why it matters:</strong> Signals changing customer bargaining power and shifting value capture within the industry value chain.</div>
+          <div class="card-block"><strong>Management takeaway:</strong> Preserving pricing power requires building distinct switching barriers and proprietary customer touchpoints.</div>
+          
+          <div class="card-adv">
+            <strong>💡 Second-Order Implication:</strong> Firms with direct customer touchpoints avoid intermediate platform take-rates and maintain superior gross margins.
+          </div>
+          
+          <span class="source-tag">Source: <a href="https://www.supplychainbrain.com/articles/44984-oil-shipping-costs-reach-dizzying-new-highs-on-hormuz-snarls" target="_blank">Supply Chain Brain</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">5. Jio Platforms aspires to deliver India’s biggest IPO, says Akash Ambani</h3>
+          <div class="card-block"><strong>What happened:</strong> We are a 10-year-old company. We truly believe that the future ahead is very exciting, says Akash Ambani</div>
+          <div class="card-block"><strong>Why it matters:</strong> Illustrates the institutional formalization of the Indian domestic economy, where rapid digital rails and policy incentives are driving industrial and consumer capex.</div>
+          <div class="card-block"><strong>Management takeaway:</strong> Navigating high-growth emerging markets requires pairing localized pricing sensitivity with robust compliance and agile supply chain adaptability.</div>
+          
+          <div class="card-adv">
+            <strong>💡 Second-Order Implication:</strong> Corporates capitalizing on domestic value addition and policy-linked manufacturing capture durable margin subsidies while insulated from cross-border import tariffs.
+          </div>
+          
+          <span class="source-tag">Source: <a href="https://www.livemint.com/industry/telecom/jio-platforms-ipo-akash-ambani-11791446675323.html" target="_blank">LiveMint Industry</a></span>
+        </div>
+        
+
+        <!-- OPERATIONS INTELLIGENCE -->
+        <div class="section-header">
+          <h2 class="section-title">⚙️ OPERATIONS INTELLIGENCE</h2>
+          <span class="section-badge badge-ops">Special Focus</span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">
+            Rural demand, casualwear to propel India’s apparel market to $146 bn: CMAI report
+            
+          </h3>
+          <div class="card-block"><strong>What happened / Concept:</strong> Rural India accounted for $55.9 billion, or 58% of the total apparel market, in 2025, found the CMAI study</div>
+          <div class="card-block"><strong>Operational impact:</strong> Marks the transition of enterprise technology from experimental hype to workflow integration, putting pressure on legacy headcount-based business models.</div>
+          <div class="card-block"><strong>Operational lesson:</strong> Productivity gains from automation must be deliberately harvested: either to expand output volume or to reallocate expensive human capital toward high-margin advisory services.</div>
+          
+          <span class="source-tag">Source: <a href="https://www.livemint.com/industry/india-apparel-market-growth-2029-cmai-report-11791442200815.html" target="_blank">LiveMint Industry</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">
+            Port of Savannah Logs Record Cargo Volumes in September
+            
+          </h3>
+          <div class="card-block"><strong>What happened / Concept:</strong> The port brought in 1.5 million TEUs for the first quarter of its fiscal year, up 2.7% from that same period last year, and representing the second best quarter in its history.</div>
+          <div class="card-block"><strong>Operational impact:</strong> Highlights how regulatory interventions or market shocks can rapidly disrupt incumbent operating margins.</div>
+          <div class="card-block"><strong>Operational lesson:</strong> Scenario-planning for sudden compliance changes must be integrated into annual strategic capital allocation.</div>
+          
+          <span class="source-tag">Source: <a href="https://www.supplychainbrain.com/articles/44979-port-of-savannah-logs-record-cargo-volumes-in-september" target="_blank">Supply Chain Brain</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">
+            IT Asset Disposition (ITAD) - Global Strategic Business Report: Secure the $13.4 Billion Revenue Surge by 2030 as Dell, IBM, Iron Mountain, Sims Lifecycle Services, and SK tes Disrupt the Market
+            
+          </h3>
+          <div class="card-block"><strong>What happened / Concept:</strong> IT Asset Disposition (ITAD) - Global Strategic Business Report: Secure the $13.4 Billion Revenue Surge by 2030 as Dell, IBM, Iron Mountain, Sims Lifecycle Services, and SK tes Disrupt the Market Supply Chain Digital</div>
+          <div class="card-block"><strong>Operational impact:</strong> Directly alters working capital cycles (Days Sales of Inventory) and operational fulfillment velocity, determining gross margin resilience during demand volatility.</div>
+          <div class="card-block"><strong>Operational lesson:</strong> Operational resilience requires treating supply networks as strategic moats; single-sourcing for lowest unit cost introduces existential fragility.</div>
+          
+          <span class="source-tag">Source: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBvZG5qZENnZXVrWTZueFo2cVJPbDRlTnlRR3h5Q2dDOFNERGt2SE9ZLVFpRzVRNy1FZjVsM1cwWGw2THBIWkQtLWcxVDBjYVVzNXlTbTZkQ0RqNkxKTFdJRTRn?oc=5" target="_blank">Supply Chain Digital</a></span>
+        </div>
+        
+
+        <!-- MARKETING INTELLIGENCE -->
+        <div class="section-header">
+          <h2 class="section-title">📣 MARKETING INTELLIGENCE</h2>
+          <span class="section-badge badge-mkt">Special Focus</span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">
+            Dan Smith has put up 1.5 million flyers advertising guitar lessons. Now he’s on a Times Square billboard
+            
+          </h3>
+          <div class="card-block"><strong>What happened / Concept:</strong> Dan Smith has put up 1.5 million flyers advertising guitar lessons. Now he’s on a Times Square billboard Marketing Brew</div>
+          <div class="card-block"><strong>Marketing/Customer impact:</strong> Demonstrates the principal-agent dynamic: structuring compensation to balance executive risk-taking against long-term equity dilution for external shareholders.</div>
+          <div class="card-block"><strong>Marketing lesson:</strong> Equity vesting schedules must be tied to economic value added (EVA) and cash flows rather than short-term valuation spikes or vanity metrics.</div>
+          
+          <span class="source-tag">Source: <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxON1FWVTNheFczM0hrVmJndUhEanBiQjVXTklDZkhpeHY4T0NDMVNRQTlraEdjTUtRLU1jRHI1MEtpTXcyMEZWeks0TV9ZTGxjQVRoVDN1U0ZhVmliZENTeExUWHgtaG1EN3VUNmpqTWc4NGJ2Qk9nNnByQWpCejVkVDVWaXUzRmd1ZmNud21SdmRsY0pfMFVKLUNqaE45cjk3YTNuSW1FaUo?oc=5" target="_blank">Marketing Brew</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">
+            3 Key Takeaways for Revenue-Boosting Customer Retention
+            
+          </h3>
+          <div class="card-block"><strong>What happened / Concept:</strong> 3 Key Takeaways for Revenue-Boosting Customer Retention www.resonate.com</div>
+          <div class="card-block"><strong>Marketing/Customer impact:</strong> Reflects the shifting economics of customer acquisition: rising ad auction costs are making pure-play performance marketing unsustainable relative to organic community retention.</div>
+          <div class="card-block"><strong>Marketing lesson:</strong> Sustainable brand equity stems from distinctive category positioning and emotional resonance, which ad-spend arbitrage cannot permanently replace.</div>
+          
+          <span class="source-tag">Source: <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNSm84Z0l3OHFGR2wwV21OY19ndlctaDZ4VHk2RUZOUlM1a3ZRNFhuVk9EYTU0V01jQU1KU1h1elkwQUZ4VURlS3ZkNG03ZXYxT0lJMlRPWmNrVDFSZ2NLb25fcUNFRElTX25ZMzNQU3hBSDdnNlQtdEdtRE1WdlhWXzgzeXBxcFBTaGlueU9DTQ?oc=5" target="_blank">www.resonate.com</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">
+            The Shift From Customer Acquisition to Customer Retention
+            
+          </h3>
+          <div class="card-block"><strong>What happened / Concept:</strong> The Shift From Customer Acquisition to Customer Retention MarkHub24</div>
+          <div class="card-block"><strong>Marketing/Customer impact:</strong> Consolidation reshapes industry market share and tests whether capital allocation was justified or inflated by an M&A bidding war (the Winner's Curse).</div>
+          <div class="card-block"><strong>Marketing lesson:</strong> Post-merger integration success hinges on operational culture and IT harmonization, not pro-forma spreadsheets. 70% of M&A fails to generate projected cost synergies.</div>
+          
+          <span class="source-tag">Source: <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxPZERIQ3lISGVEdkdlZ0dTalNWZjZYM1dQNXFQWkliUDNrSGZ5RlRJUU52UGx6QkFidjcwTmhiemNXME1rcmRRT2Q5WmZ0Q3FETmxwdlBQMlQ2cEV0YkU0RTdXOTJ0WlZkajVDTjhUOEg0UzV3a245U2hvR3l3T0dScmlicHlpN0lndzRYR2NEemVpdw?oc=5" target="_blank">MarkHub24</a></span>
+        </div>
+        
+
+        <!-- STRATEGY & FINANCE -->
+        <div class="section-header">
+          <h2 class="section-title">📊 STRATEGY & FINANCE</h2>
+          <span class="section-badge badge-strat">Core</span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">
+            Will your next M&A deal break your finance operating model?
+            
+          </h3>
+          <div class="card-block"><strong>Development / Model:</strong> Will your next M&A deal break your finance operating model? EY</div>
+          <div class="card-block"><strong>Strategic takeaway:</strong> Post-merger integration success hinges on operational culture and IT harmonization, not pro-forma spreadsheets. 70% of M&A fails to generate projected cost synergies.</div>
+          
+          <span class="source-tag">Source: <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxOeTdpT3dqdXhZVmpxdGFBOG9fQWVoRXFWUW9jNUo2czU4OHRydy1PbUFZcnhIbFRNdDJ2SFJvY1hvZkhaX0NnQ0FMQnJiTmlmN2ZtYmtkUEJGZ2ZuT1AybkVzTmJOXzM2amJjc2s2SVhrU202ck1tT2VpVml6WkplTWJraWNSWUdlVjk1MFRLODVmV1lRSGJj?oc=5" target="_blank">EY</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">
+            Nvidia-Groq’s “It’s Really Not a Merger” Business Deal Draws Delaware Fiduciary-Duty Suit
+            
+          </h3>
+          <div class="card-block"><strong>Development / Model:</strong> Nvidia-Groq’s “It’s Really Not a Merger” Business Deal Draws Delaware Fiduciary-Duty Suit JDSupra</div>
+          <div class="card-block"><strong>Strategic takeaway:</strong> Post-merger integration success hinges on operational culture and IT harmonization, not pro-forma spreadsheets. 70% of M&A fails to generate projected cost synergies.</div>
+          
+          <span class="source-tag">Source: <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUlVCN0djSllObG80RDRJc3daZWZrOXlXd3NMYkxtclVnYUp3cUhYbDBsRmZBdEtXUFFNU2VwTTBwLXdQOFBtZ3kydWNGMTY5WF9lQ0NqRXNHMWFoZmxrYzdNQkM4ZEFfeW12NjBjT1lCUzNYVXdvTGlkcHRuYzdXdFpMelVybWtN?oc=5" target="_blank">JDSupra</a></span>
+        </div>
+        
+
+        <!-- TECHNOLOGY & AI -->
+        <div class="section-header">
+          <h2 class="section-title">🤖 TECHNOLOGY & AI</h2>
+          <span class="section-badge badge-tech">Enterprise Impact</span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">
+            Information Workers Launches Enterprise AI Governance Practice Across US Markets
+            
+          </h3>
+          <div class="card-block"><strong>Development / Shift:</strong> Information Workers Launches Enterprise AI Governance Practice Across US Markets The Columbus Dispatch</div>
+          <div class="card-block"><strong>Business implication:</strong> Marks the transition of enterprise technology from experimental hype to workflow integration, putting pressure on legacy headcount-based business models.</div>
+          
+          <span class="source-tag">Source: <a href="https://news.google.com/rss/articles/CBMizgFBVV95cUxOcnVzakx0Z1VxbG5tWXhoR0NaUkhUSFg2bDhzWVNzZUs3bC1wU25Rc0E1WTY1dXljYUFYc01QYUg1RjBDWVdPZXR3NkV3eXlZMVRhbmk5bHlXVDFyUmtyN3RGUWJJSEZMbm9yZTJYNGZJa1RiYU5ITUhoYlBYcDBwMXJHekRhOVlLZmJUVnN0ek5sOUUxYmluSWNiWVp1cDdFVjBSNHVzWmxSY1BzSUNkdFAtZi1UekJrWXNLUU10UmZFaFVDX2RoU3pZLW1sZw?oc=5" target="_blank">The Columbus Dispatch</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">
+            ‘Qatar’s cybersecurity strategy built on collaboration, shared responsibility’
+            
+          </h3>
+          <div class="card-block"><strong>Development / Shift:</strong> ‘Qatar’s cybersecurity strategy built on collaboration, shared responsibility’ The Peninsula Qatar</div>
+          <div class="card-block"><strong>Business implication:</strong> Marks the transition of enterprise technology from experimental hype to workflow integration, putting pressure on legacy headcount-based business models.</div>
+          
+          <span class="source-tag">Source: <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZTdKUi1CQ0pQTThwTlBJMmkxMG1COHlqNGJJeE41NkJFSUtXY3NucEg5dU1tRDVtdkhEM0ZRclBCZ1hNTEFVX3YzTzdhV2dzbk9tZWs5dDk5OV9SQ2tuUERaeFN5bDRJdDZ1aHY1OXpCc3RNMDRldjZZTDNqMm9mLTR0Y0dDUkVXYXlMbm96bUJqckVKVDQ0Q2JrSDd6TEtlZ2pmM3hLazR1c3ZPZC1id2lCMjVXamNZbW9vUHYzUVA?oc=5" target="_blank">The Peninsula Qatar</a></span>
+        </div>
+        
+
+        <!-- INDIA BUSINESS -->
+        <div class="section-header">
+          <h2 class="section-title">🇮🇳 INDIA BUSINESS</h2>
+          <span class="section-badge badge-india">Emerging Market</span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">
+            ITC Share Price Hits 52-Week Low, Down 4% After 36 Crore Shares Change Hands In Block Deal
+            
+          </h3>
+          <div class="card-block"><strong>Development / Trend:</strong> ITC Share Price Hits 52-Week Low, Down 4% After 36 Crore Shares Change Hands In Block Deal NDTV Profit</div>
+          <div class="card-block"><strong>Market insight:</strong> Consolidation reshapes industry market share and tests whether capital allocation was justified or inflated by an M&A bidding war (the Winner's Curse).</div>
+          
+          <span class="source-tag">Source: <a href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeEdPZjEzSkloWmtNWjJkZFhvQkp4OElSVWlNTWJKS2lZUEdsanJ3NDVuam9XaDU5TU5QZ1FjSEdhZUFYWkR1TGtJaFNhQ05lSWJOUkRKYUJ0V21HRldOdlhfU3FBdkdab0ZEQzg3UXg2WVp0U2lMT1ZWckhPTjFaMHR2d2J6d2FMeUdIS3U4MGNYTXlsWERicHZpRnFaaGRhbU83R1BHLUN4Yl9PMkNEaElybVpiUG5pMUgyRDVoTW4wckNUOHJRTm1pTFloOTBBUHhmc0w3b9IB3wFBVV95cUxNTUtsRVdLU1lIMElQdDZUT2Y2LXJMVFVFZWplZ0prV0hrVDVDV1RGTmZ5bkw3VHVISjdsM2Vad2tfLUUyaDZ4VW9ZSGdvY1JheEFzWS1hLTFEMkthUm5rUHl4V3A3NDdzbWlyRFNMamF4Y2MxLUZpSF9VR0dtaUwzNWhlZm00Qi1wVmhKNTR0dHpXbm1RVnl6eUlHRW1fenA3aTRPMFNyTFlUdHFjbEFGbmcyQWR5LVRyZmpOX1VwMVZFLUpZcWo0S0wwdWpPMlI5UWZ2QnFwZ1ZzNkZGWmZz?oc=5" target="_blank">NDTV Profit</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">
+            Layoff news: Porsche to terminate 9,000 jobs, management positions face 40% cuts; car prices to go up 20%
+            
+          </h3>
+          <div class="card-block"><strong>Development / Trend:</strong> Porsche plans to cut about 9,000 jobs by 2030, reducing its workforce by 25% to 30% amid declining sales in China and a shift in its electric vehicle strategy, aiming for higher profit margins through fewer but more expensive vehicles.</div>
+          <div class="card-block"><strong>Market insight:</strong> Marks the transition of enterprise technology from experimental hype to workflow integration, putting pressure on legacy headcount-based business models.</div>
+          
+          <span class="source-tag">Source: <a href="https://www.livemint.com/companies/news/layoff-news-porsche-to-terminate-9-000-jobs-management-positions-face-40-cuts-car-prices-to-go-up-20-11791395563763.html" target="_blank">LiveMint Companies</a></span>
+        </div>
+        
+
+        <!-- GLOBAL BUSINESS -->
+        <div class="section-header">
+          <h2 class="section-title">🌎 GLOBAL BUSINESS</h2>
+          <span class="section-badge badge-global">Macro</span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">
+            Port of Savannah Logs Record Cargo Volumes in September
+            
+          </h3>
+          <div class="card-block"><strong>Development / Macro Shift:</strong> The port brought in 1.5 million TEUs for the first quarter of its fiscal year, up 2.7% from that same period last year, and representing the second best quarter in its history.</div>
+          <div class="card-block"><strong>Macro impact:</strong> Signals changing customer bargaining power and shifting value capture within the industry value chain.</div>
+          
+          <span class="source-tag">Source: <a href="https://www.supplychainbrain.com/articles/44979-port-of-savannah-logs-record-cargo-volumes-in-september" target="_blank">Supply Chain Brain</a></span>
+        </div>
+        
+        <div class="card">
+          <h3 class="card-headline">
+            Layoff news: Porsche to terminate 9,000 jobs, management positions face 40% cuts; car prices to go up 20%
+            
+          </h3>
+          <div class="card-block"><strong>Development / Macro Shift:</strong> Porsche plans to cut about 9,000 jobs by 2030, reducing its workforce by 25% to 30% amid declining sales in China and a shift in its electric vehicle strategy, aiming for higher profit margins through fewer but more expensive vehicles.</div>
+          <div class="card-block"><strong>Macro impact:</strong> Marks the transition of enterprise technology from experimental hype to workflow integration, putting pressure on legacy headcount-based business models.</div>
+          
+          <span class="source-tag">Source: <a href="https://www.livemint.com/companies/news/layoff-news-porsche-to-terminate-9-000-jobs-management-positions-face-40-cuts-car-prices-to-go-up-20-11791395563763.html" target="_blank">LiveMint Companies</a></span>
+        </div>
+        
+
+        <!-- THE MANAGEMENT LESSON OF THE DAY -->
+        
+        <div class="lesson-box">
+          <div class="lesson-tag">🧠 THE MANAGEMENT LESSON OF THE DAY</div>
+          <div class="lesson-title">The Principle of Counter-Positioning (Hamilton Helmer)</div>
+          <p class="lesson-text">Counter-positioning occurs when a challenger adopts a new, superior business model that the incumbent cannot replicate without cannibalizing their existing profits. For instance, Netflix's streaming model counter-positioned Blockbuster, whose revenue depended on late fees. True strategy is not doing things better than rivals, but designing a model where rivals cannot respond without inflicting self-harm.</p>
+        </div>
+        
+
+        <!-- 60-SECOND SCAN -->
+        
+        <div class="scan-box">
+          <div style="font-size: 14px; font-weight: 800; text-transform: uppercase; margin-bottom: 12px; color: #0f172a;" class="section-title">
+            ⚡ 60-SECOND SCAN
+          </div>
+          
+          <div class="scan-item">
+            <span class="scan-pillar">[Operations]</span>
+            <span>Logistics networks regionalizing to counter middle-mile freight volatility</span>
+          </div>
+          
+          <div class="scan-item">
+            <span class="scan-pillar">[Marketing]</span>
+            <span>Brands shifting from rented social ad auctions to zero-party retention moats</span>
+          </div>
+          
+          <div class="scan-item">
+            <span class="scan-pillar">[Strategy]</span>
+            <span>M&A focus pivoting to operational cost synergies over dilutive land-grabs</span>
+          </div>
+          
+          <div class="scan-item">
+            <span class="scan-pillar">[Finance]</span>
+            <span>Disciplined unit contribution margins replace debt-subsidized customer growth</span>
+          </div>
+          
+          <div class="scan-item">
+            <span class="scan-pillar">[Technology]</span>
+            <span>Enterprise AI spending refocuses from conversational bots to ERP workflow automation</span>
+          </div>
+          
+          <div class="scan-item">
+            <span class="scan-pillar">[India]</span>
+            <span>DPI payment rails and dark store warehouse density reshape metro FMCG distribution</span>
+          </div>
+          
+        </div>
+        
+
+      </div>
+
+      <!-- FOOTER -->
+      <div class="footer">
+        <p style="margin: 0 0 6px 0; font-weight: 600;">Daily Management Intelligence</p>
+        <p style="margin: 0 0 6px 0;">Curated and synthesized via cloud-native AI pipeline for MBA leaders.</p>
+        <p style="margin: 0; color: #94a3b8;">Automated daily execution • Zero manual intervention required</p>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

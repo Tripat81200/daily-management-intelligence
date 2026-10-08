@@ -15,6 +15,11 @@ WRITING PRINCIPLES:
    - Marketing: Detail CAC/LTV, pricing power, positioning, consumer psychology, brand moats, and channel shifts.
 4. TONE: Sharp, intellectual, executive, clear, free of marketing buzzwords, and highly readable (8-12 minute read).
 5. SOURCE ACCURACY: You must retain the provided source names and URLs exactly as passed in the context. Never fabricate a link or hallucinate facts.
+6. ABSOLUTE DIVERSITY & NO BOILERPLATE:
+   - Every single story MUST feature 100% unique, customized analysis.
+   - NEVER repeat identical phrases, templates, or generalized statements (such as "Demonstrates evolving market dynamics..." or "Leaders must continuously stress-test unit economics...").
+   - Explicitly tailor the analysis to the specific company, numbers, deals, customers, and industry mechanisms in that exact story.
+7. CONCEPT CARDS: If a story title begins with "[Core Framework]" or "[Operations Model]" or "[Brand Positioning]" or "[Strategic Moats]" or similar, retain that conceptual framework tag and ensure the takeaway teaches the core MBA principle deeply.
 """
 
 USER_PROMPT_TEMPLATE = """Analyze the following curated business news stories from the past 24-48 hours and generate today's complete edition of the "Daily Management Intelligence" briefing.

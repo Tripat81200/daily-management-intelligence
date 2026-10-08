@@ -17,8 +17,8 @@ email:
 # AI Model Configuration
 ai:
   provider: "gemini" # options: "gemini", "openai"
-  model: "gemini-3.8-flash" # Current fast balanced Gemini model (or gemini-2.5-flash fallback if needed)
-  fallback_model: "gemini-2.5-flash"
+  model: "gemini-2.5-flash" # High-speed, highly reliable Gemini model on Google AI Studio
+  fallback_model: "gemini-2.0-flash"
   temperature: 0.2
   max_output_tokens: 8192
 
@@ -27,13 +27,15 @@ content:
   top_stories_count: 5
   operations_stories_count: 3
   marketing_stories_count: 3
-  strategy_finance_stories_count: 3
+  strategy_finance_stories_count: 2
   tech_ai_stories_count: 2
   global_business_stories_count: 2
-  india_business_stories_count: 3
+  india_business_stories_count: 2
+  min_stories_per_section: 1
+  inject_concept_if_empty: true
   include_lesson_of_day: true
   include_60_second_scan: true
-  max_total_stories: 15
+  max_total_stories: 18
 
 # Story Ranking & Scoring Weights (Percentages summing to 100)
 ranking:
@@ -45,7 +47,7 @@ ranking:
     strategic_importance: 0.10
     recency: 0.10
     novelty: 0.05
-  threshold_min_score: 0.35 # Candidate stories below this score are discarded
+  threshold_min_score: 0.18 # Permissive score so all categories retain candidates
   history_retention_days: 14 # Stories covered in past N days are excluded
 
 # Filter Rules (Active Noise Elimination)

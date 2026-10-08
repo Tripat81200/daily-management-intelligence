@@ -158,60 +158,66 @@ class StoryRanker:
         logger.info(f"Filtered {len(candidates)} candidates down to {len(deduped)} high-signal unique stories.")
 
         # Step 5: Distribute into designated newsletter sections
+        from src.ai.concepts import get_concept_for_category
+
         content_cfg = self.config.get("content", {})
         top_n = content_cfg.get("top_stories_count", 5)
         ops_n = content_cfg.get("operations_stories_count", 3)
         mkt_n = content_cfg.get("marketing_stories_count", 3)
-        strat_n = content_cfg.get("strategy_finance_stories_count", 3)
+        strat_n = content_cfg.get("strategy_finance_stories_count", 2)
         tech_n = content_cfg.get("tech_ai_stories_count", 2)
-        india_n = content_cfg.get("india_business_stories_count", 3)
+        india_n = content_cfg.get("india_business_stories_count", 2)
         global_n = content_cfg.get("global_business_stories_count", 2)
 
         # Select Top 5 first (highest scoring overall)
         top_5 = deduped[:top_n]
-        remaining = deduped[top_n:]
 
-        # Bucketing helper
-        def extract_for_category(category_name: str, count: int, fallback_keywords: List[str]) -> List[Dict[str, Any]]:
+        # Category pool distribution (non-exhausting, so sections always get top relevant stories)
+        def select_category_stories(cat_name: str, target_count: int, kw_list: List[str]) -> List[Dict[str, Any]]:
             picked = []
-            nonlocal remaining
-            # First pick explicit category matches
-            for item in list(remaining):
-                if item.get("category") == category_name and len(picked) < count:
-                    picked.append(item)
-                    remaining.remove(item)
+            used_titles = {s["title"] for s in top_5}  # Prefer fresh stories outside top_5
 
-            # Second pick keyword matches if quota not met
-            if len(picked) < count and fallback_keywords:
-                for item in list(remaining):
-                    text = f"{item.get('title', '')} {item.get('summary', '')}".lower()
-                    if any(kw in text for kw in fallback_keywords) and len(picked) < count:
+            # Pass 1: stories explicitly tagged with this category and not in top_5
+            for item in deduped:
+                if item.get("category") == cat_name and item["title"] not in used_titles:
+                    picked.append(item)
+                    used_titles.add(item["title"])
+                    if len(picked) >= target_count:
+                        return picked
+
+            # Pass 2: keyword matches in remaining pool
+            if len(picked) < target_count:
+                for item in deduped:
+                    if item["title"] not in used_titles:
+                        text = f"{item.get('title', '')} {item.get('summary', '')}".lower()
+                        if any(kw in text for kw in kw_list):
+                            picked.append(item)
+                            used_titles.add(item["title"])
+                            if len(picked) >= target_count:
+                                return picked
+
+            # Pass 3: if still short, allow high-relevance items even if in top_5
+            if len(picked) < target_count:
+                for item in deduped:
+                    if item.get("category") == cat_name and item not in picked:
                         picked.append(item)
-                        remaining.remove(item)
+                        if len(picked) >= target_count:
+                            return picked
+
+            # Pass 4: If STILL empty, inject a rich MBA Conceptual Framework card!
+            if len(picked) == 0:
+                concept = get_concept_for_category(cat_name, 0)
+                picked.append(concept)
+                logger.info(f"Section {cat_name} was empty. Injected MBA concept: {concept['headline']}")
 
             return picked
 
-        operations = extract_for_category("operations", ops_n, KEYWORD_MAP["operations_relevance"][:6])
-        marketing = extract_for_category("marketing", mkt_n, KEYWORD_MAP["marketing_relevance"][:6])
-        strategy_finance = extract_for_category("strategy_finance", strat_n, KEYWORD_MAP["strategic_importance"][:4])
-        tech_ai = extract_for_category("tech_ai", tech_n, ["ai", "software", "cloud", "automation", "tech"])
-        india_business = extract_for_category("india_business", india_n, ["india", "indian", "rbi", "bse", "nifty"])
-        global_business = extract_for_category("global_business", global_n, ["us", "europe", "china", "global", "fed"])
-
-        # If any section is empty, backfill from remaining high-scoring pool if possible
-        def backfill_if_needed(section_list: List[Dict[str, Any]], target: int, cat_label: str):
-            nonlocal remaining
-            while len(section_list) < min(target, 2) and remaining:
-                item = remaining.pop(0)
-                item["category"] = cat_label
-                section_list.append(item)
-
-        backfill_if_needed(operations, ops_n, "operations")
-        backfill_if_needed(marketing, mkt_n, "marketing")
-        backfill_if_needed(strategy_finance, strat_n, "strategy_finance")
-        backfill_if_needed(tech_ai, tech_n, "tech_ai")
-        backfill_if_needed(india_business, india_n, "india_business")
-        backfill_if_needed(global_business, global_n, "global_business")
+        operations = select_category_stories("operations", ops_n, KEYWORD_MAP["operations_relevance"][:6])
+        marketing = select_category_stories("marketing", mkt_n, KEYWORD_MAP["marketing_relevance"][:6])
+        strategy_finance = select_category_stories("strategy_finance", strat_n, KEYWORD_MAP["strategic_importance"][:6])
+        tech_ai = select_category_stories("tech_ai", tech_n, ["ai", "software", "cloud", "automation", "tech", "data"])
+        india_business = select_category_stories("india_business", india_n, ["india", "indian", "rbi", "sebi", "bse", "nifty"])
+        global_business = select_category_stories("global_business", global_n, ["us", "europe", "china", "trade", "global", "fed", "tariff"])
 
         return {
             "top_5": top_5,

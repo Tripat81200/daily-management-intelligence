@@ -1,16 +1,24 @@
-"""HTML and text email templates for Daily Management Intelligence."""
+"""HTML and text email templates for Daily Management Intelligence.
+Optimized for high-contrast readability across both Light and Dark themes.
+"""
 
 HTML_TEMPLATE = """<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
   <title>{{ edition_name }} - {{ formatted_date }}</title>
   <style>
+    :root {
+      color-scheme: light dark;
+      supported-color-schemes: light dark;
+    }
     body {
       margin: 0;
       padding: 0;
-      background-color: #f1f5f9;
+      background-color: #f8fafc;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
       color: #1e293b;
       -webkit-font-smoothing: antialiased;
@@ -21,7 +29,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     }
     .wrapper {
       width: 100%;
-      background-color: #f1f5f9;
+      background-color: #f8fafc;
       padding: 24px 8px;
     }
     .container {
@@ -71,7 +79,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       padding: 28px;
     }
     .big-picture-box {
-      background-color: #f8fafc;
+      background-color: #f1f5f9;
       border-left: 4px solid #2563eb;
       padding: 16px 20px;
       border-radius: 0 8px 8px 0;
@@ -87,7 +95,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     }
     .big-picture-text {
       font-size: 15px;
-      color: #334155;
+      color: #1e293b;
       margin: 0;
       line-height: 1.6;
     }
@@ -107,11 +115,12 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     }
     .section-badge {
       font-size: 11px;
-      font-weight: 600;
+      font-weight: 700;
       padding: 2px 8px;
       border-radius: 4px;
       margin-left: 8px;
       vertical-align: middle;
+      text-transform: uppercase;
     }
     .badge-ops { background-color: #e0f2fe; color: #0369a1; }
     .badge-mkt { background-color: #fef3c7; color: #b45309; }
@@ -119,6 +128,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     .badge-tech { background-color: #ecfdf5; color: #047857; }
     .badge-india { background-color: #ffedd5; color: #c2410c; }
     .badge-global { background-color: #f1f5f9; color: #475569; }
+    .badge-concept { background-color: #fef08a; color: #854d0e; }
 
     .card {
       background-color: #ffffff;
@@ -126,7 +136,6 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       border-radius: 8px;
       padding: 18px;
       margin-bottom: 18px;
-      transition: all 0.2s ease;
     }
     .card-headline {
       font-size: 16px;
@@ -143,16 +152,21 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     }
     .card-block strong {
       color: #0f172a;
-      font-weight: 600;
+      font-weight: 700;
     }
     .card-adv {
-      background-color: #eff6ff;
-      border-radius: 6px;
-      padding: 10px 12px;
+      background-color: #f0f7ff;
+      border-left: 3px solid #3b82f6;
+      border-radius: 4px;
+      padding: 10px 14px;
       margin-top: 10px;
       font-size: 13px;
-      color: #1e40af;
+      color: #1e3a8a;
       line-height: 1.5;
+    }
+    .card-adv strong {
+      color: #1d4ed8;
+      font-weight: 700;
     }
     .source-tag {
       display: block;
@@ -163,7 +177,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     .source-tag a {
       color: #2563eb;
       text-decoration: none;
-      font-weight: 500;
+      font-weight: 600;
     }
     .source-tag a:hover {
       text-decoration: underline;
@@ -193,7 +207,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     }
     .lesson-text {
       font-size: 14px;
-      color: #cbd5e1;
+      color: #e2e8f0;
       margin: 0;
       line-height: 1.6;
     }
@@ -207,7 +221,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     }
     .scan-item {
       font-size: 13px;
-      padding: 6px 0;
+      padding: 8px 0;
       border-bottom: 1px dashed #e2e8f0;
       color: #334155;
     }
@@ -218,7 +232,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       font-weight: 700;
       color: #0f172a;
       display: inline-block;
-      width: 100px;
+      width: 110px;
     }
 
     .footer {
@@ -233,6 +247,89 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       color: #60a5fa;
       text-decoration: none;
     }
+
+    /* =========================================================================
+       DARK THEME OPTIMIZATION (Apple Mail, iOS, Outlook, Android)
+       ========================================================================= */
+    @media (prefers-color-scheme: dark) {
+      body, .wrapper {
+        background-color: #0b0f19 !important;
+        color: #f1f5f9 !important;
+      }
+      .container {
+        background-color: #111827 !important;
+        border-color: #1f2937 !important;
+      }
+      .card {
+        background-color: #1e293b !important;
+        border-color: #334155 !important;
+      }
+      .card-headline {
+        color: #f8fafc !important;
+      }
+      .card-block {
+        color: #cbd5e1 !important;
+      }
+      .card-block strong {
+        color: #ffffff !important;
+      }
+      .big-picture-box {
+        background-color: #1e293b !important;
+        border-left-color: #3b82f6 !important;
+      }
+      .big-picture-title {
+        color: #60a5fa !important;
+      }
+      .big-picture-text {
+        color: #f1f5f9 !important;
+      }
+      .section-header {
+        border-bottom-color: #334155 !important;
+      }
+      .section-title {
+        color: #f8fafc !important;
+      }
+      .card-adv {
+        background-color: #172554 !important;
+        border-left-color: #60a5fa !important;
+        color: #bfdbfe !important;
+      }
+      .card-adv strong {
+        color: #93c5fd !important;
+      }
+      .source-tag {
+        color: #94a3b8 !important;
+      }
+      .source-tag a {
+        color: #60a5fa !important;
+      }
+      .scan-box {
+        background-color: #1e293b !important;
+        border-color: #334155 !important;
+      }
+      .scan-item {
+        color: #cbd5e1 !important;
+        border-bottom-color: #334155 !important;
+      }
+      .scan-pillar {
+        color: #f8fafc !important;
+      }
+      .badge-ops { background-color: #0c4a6e !important; color: #7dd3fc !important; }
+      .badge-mkt { background-color: #78350f !important; color: #fde68a !important; }
+      .badge-strat { background-color: #4c1d95 !important; color: #ddd6fe !important; }
+      .badge-tech { background-color: #064e3b !important; color: #a7f3d0 !important; }
+      .badge-india { background-color: #7c2d12 !important; color: #fed7aa !important; }
+      .badge-global { background-color: #334155 !important; color: #e2e8f0 !important; }
+      .badge-concept { background-color: #713f12 !important; color: #fef08a !important; }
+    }
+
+    /* Outlook Dark Mode Compatibility */
+    [data-ogsc] body, [data-ogsc] .wrapper { background-color: #0b0f19 !important; color: #f1f5f9 !important; }
+    [data-ogsc] .container { background-color: #111827 !important; border-color: #1f2937 !important; }
+    [data-ogsc] .card { background-color: #1e293b !important; border-color: #334155 !important; }
+    [data-ogsc] .card-headline { color: #f8fafc !important; }
+    [data-ogsc] .card-block { color: #cbd5e1 !important; }
+    [data-ogsc] .card-adv { background-color: #172554 !important; color: #bfdbfe !important; }
   </style>
 </head>
 <body>
@@ -284,10 +381,20 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         </div>
         {% for item in operations %}
         <div class="card">
-          <h3 class="card-headline">{{ item.headline }}</h3>
-          <div class="card-block"><strong>What happened:</strong> {{ item.what_happened }}</div>
-          <div class="card-block"><strong>Operational impact:</strong> {{ item.why_it_matters_operationally }}</div>
-          <div class="card-block"><strong>Operational lesson:</strong> {{ item.operational_lesson }}</div>
+          <h3 class="card-headline">
+            {{ item.headline }}
+            {% if '[' in item.headline and ']' in item.headline %}
+            <span class="section-badge badge-concept">Executive Framework</span>
+            {% endif %}
+          </h3>
+          <div class="card-block"><strong>What happened / Concept:</strong> {{ item.what_happened }}</div>
+          <div class="card-block"><strong>Operational impact:</strong> {{ item.why_it_matters_operationally or item.why_it_matters }}</div>
+          <div class="card-block"><strong>Operational lesson:</strong> {{ item.operational_lesson or item.management_takeaway }}</div>
+          {% if item.competitive_advantage %}
+          <div class="card-adv">
+            <strong>💡 Second-Order Implication:</strong> {{ item.competitive_advantage }}
+          </div>
+          {% endif %}
           <span class="source-tag">Source: <a href="{{ item.source_url }}" target="_blank">{{ item.source_name }}</a></span>
         </div>
         {% endfor %}
@@ -299,10 +406,20 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         </div>
         {% for item in marketing %}
         <div class="card">
-          <h3 class="card-headline">{{ item.headline }}</h3>
-          <div class="card-block"><strong>What happened:</strong> {{ item.what_happened }}</div>
-          <div class="card-block"><strong>Marketing/Customer impact:</strong> {{ item.why_it_matters_marketing }}</div>
-          <div class="card-block"><strong>Marketing lesson:</strong> {{ item.marketing_lesson }}</div>
+          <h3 class="card-headline">
+            {{ item.headline }}
+            {% if '[' in item.headline and ']' in item.headline %}
+            <span class="section-badge badge-concept">Executive Framework</span>
+            {% endif %}
+          </h3>
+          <div class="card-block"><strong>What happened / Concept:</strong> {{ item.what_happened }}</div>
+          <div class="card-block"><strong>Marketing/Customer impact:</strong> {{ item.why_it_matters_marketing or item.why_it_matters }}</div>
+          <div class="card-block"><strong>Marketing lesson:</strong> {{ item.marketing_lesson or item.management_takeaway }}</div>
+          {% if item.competitive_advantage %}
+          <div class="card-adv">
+            <strong>💡 Second-Order Implication:</strong> {{ item.competitive_advantage }}
+          </div>
+          {% endif %}
           <span class="source-tag">Source: <a href="{{ item.source_url }}" target="_blank">{{ item.source_name }}</a></span>
         </div>
         {% endfor %}
@@ -314,9 +431,19 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         </div>
         {% for item in strategy_finance %}
         <div class="card">
-          <h3 class="card-headline">{{ item.headline }}</h3>
-          <div class="card-block"><strong>Development:</strong> {{ item.what_happened }}</div>
-          <div class="card-block"><strong>Strategic takeaway:</strong> {{ item.strategic_takeaway }}</div>
+          <h3 class="card-headline">
+            {{ item.headline }}
+            {% if '[' in item.headline and ']' in item.headline %}
+            <span class="section-badge badge-concept">Executive Framework</span>
+            {% endif %}
+          </h3>
+          <div class="card-block"><strong>Development / Model:</strong> {{ item.what_happened }}</div>
+          <div class="card-block"><strong>Strategic takeaway:</strong> {{ item.strategic_takeaway or item.why_it_matters or item.management_takeaway }}</div>
+          {% if item.competitive_advantage %}
+          <div class="card-adv">
+            <strong>💡 Second-Order Implication:</strong> {{ item.competitive_advantage }}
+          </div>
+          {% endif %}
           <span class="source-tag">Source: <a href="{{ item.source_url }}" target="_blank">{{ item.source_name }}</a></span>
         </div>
         {% endfor %}
@@ -328,9 +455,19 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         </div>
         {% for item in tech_ai %}
         <div class="card">
-          <h3 class="card-headline">{{ item.headline }}</h3>
-          <div class="card-block"><strong>Development:</strong> {{ item.what_happened }}</div>
-          <div class="card-block"><strong>Business implication:</strong> {{ item.business_implication }}</div>
+          <h3 class="card-headline">
+            {{ item.headline }}
+            {% if '[' in item.headline and ']' in item.headline %}
+            <span class="section-badge badge-concept">Executive Framework</span>
+            {% endif %}
+          </h3>
+          <div class="card-block"><strong>Development / Shift:</strong> {{ item.what_happened }}</div>
+          <div class="card-block"><strong>Business implication:</strong> {{ item.business_implication or item.why_it_matters or item.management_takeaway }}</div>
+          {% if item.competitive_advantage %}
+          <div class="card-adv">
+            <strong>💡 Second-Order Implication:</strong> {{ item.competitive_advantage }}
+          </div>
+          {% endif %}
           <span class="source-tag">Source: <a href="{{ item.source_url }}" target="_blank">{{ item.source_name }}</a></span>
         </div>
         {% endfor %}
@@ -342,9 +479,19 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         </div>
         {% for item in india_business %}
         <div class="card">
-          <h3 class="card-headline">{{ item.headline }}</h3>
-          <div class="card-block"><strong>Development:</strong> {{ item.what_happened }}</div>
-          <div class="card-block"><strong>Market insight:</strong> {{ item.india_market_insight }}</div>
+          <h3 class="card-headline">
+            {{ item.headline }}
+            {% if '[' in item.headline and ']' in item.headline %}
+            <span class="section-badge badge-concept">Executive Framework</span>
+            {% endif %}
+          </h3>
+          <div class="card-block"><strong>Development / Trend:</strong> {{ item.what_happened }}</div>
+          <div class="card-block"><strong>Market insight:</strong> {{ item.india_market_insight or item.why_it_matters or item.management_takeaway }}</div>
+          {% if item.competitive_advantage %}
+          <div class="card-adv">
+            <strong>💡 Second-Order Implication:</strong> {{ item.competitive_advantage }}
+          </div>
+          {% endif %}
           <span class="source-tag">Source: <a href="{{ item.source_url }}" target="_blank">{{ item.source_name }}</a></span>
         </div>
         {% endfor %}
@@ -356,9 +503,19 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         </div>
         {% for item in global_business %}
         <div class="card">
-          <h3 class="card-headline">{{ item.headline }}</h3>
-          <div class="card-block"><strong>Development:</strong> {{ item.what_happened }}</div>
-          <div class="card-block"><strong>Macro impact:</strong> {{ item.macro_impact }}</div>
+          <h3 class="card-headline">
+            {{ item.headline }}
+            {% if '[' in item.headline and ']' in item.headline %}
+            <span class="section-badge badge-concept">Executive Framework</span>
+            {% endif %}
+          </h3>
+          <div class="card-block"><strong>Development / Macro Shift:</strong> {{ item.what_happened }}</div>
+          <div class="card-block"><strong>Macro impact:</strong> {{ item.macro_impact or item.why_it_matters or item.management_takeaway }}</div>
+          {% if item.competitive_advantage %}
+          <div class="card-adv">
+            <strong>💡 Second-Order Implication:</strong> {{ item.competitive_advantage }}
+          </div>
+          {% endif %}
           <span class="source-tag">Source: <a href="{{ item.source_url }}" target="_blank">{{ item.source_name }}</a></span>
         </div>
         {% endfor %}
@@ -375,7 +532,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         <!-- 60-SECOND SCAN -->
         {% if sixty_second_scan %}
         <div class="scan-box">
-          <div style="font-size: 14px; font-weight: 800; text-transform: uppercase; margin-bottom: 12px; color: #0f172a;">
+          <div style="font-size: 14px; font-weight: 800; text-transform: uppercase; margin-bottom: 12px; color: #0f172a;" class="section-title">
             ⚡ 60-SECOND SCAN
           </div>
           {% for scan in sixty_second_scan %}
@@ -393,7 +550,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       <div class="footer">
         <p style="margin: 0 0 6px 0; font-weight: 600;">Daily Management Intelligence</p>
         <p style="margin: 0 0 6px 0;">Curated and synthesized via cloud-native AI pipeline for MBA leaders.</p>
-        <p style="margin: 0; color: #64748b;">Automated daily execution • Zero manual intervention required</p>
+        <p style="margin: 0; color: #94a3b8;">Automated daily execution • Zero manual intervention required</p>
       </div>
 
     </div>
