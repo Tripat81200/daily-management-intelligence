@@ -1,71 +1,5 @@
 [
   {
-    "title": "Nat Habit secures Rs 142 cr funding to fuel expansion; eyes 60-70% revenue growth in FY27",
-    "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/nat-habit-secures-rs-142-cr-funding-to-fuel-expansion-eyes-60-70-pc-revenue-growth-in-fy27/articleshow/134852995.cms",
-    "category": "top_5",
-    "sent_at": "2026-10-11T01:43:07.976327+00:00"
-  },
-  {
-    "title": "$606 million payday! Check outgoing CEO David Zaslav's big windfall from Paramount's Warner Bros takeover",
-    "url": "https://www.livemint.com/companies/news/606-million-payday-check-outgoing-ceo-david-zaslavs-big-windfall-from-paramounts-warner-bros-takeover-11791625464356.html",
-    "category": "top_5",
-    "sent_at": "2026-10-11T01:43:07.976327+00:00"
-  },
-  {
-    "title": "DMart’s Q2 profit growth trails revenue as expenses rise",
-    "url": "https://www.livemint.com/companies/dmarts-q2-profit-growth-trails-revenue-as-expenses-rise-11791630204915.html",
-    "category": "top_5",
-    "sent_at": "2026-10-11T01:43:07.976327+00:00"
-  },
-  {
-    "title": "Decision Velocity: The New Competitive Edge in Procurement - Supply & Demand Chain Executive",
-    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPdmFTdzdWOTVfMUNSaGFYT0NKR0pSVjkxcktzZFo4M0MtMHlNdi1vNHJwaUVyM3JZWlJPbG9RTnc3eEQ2VXI1aTJmMFdMN1FkVDB1OWVJeDY2WGhuY1dpcF9LdUtmdURfVHlwS21XMWppbDBlUlZ6T1NzWjJ4UlY4Q3BhTmlLOXBmZG4xT2dXRFlKcUdDbDRlejZRN0N6VW1mRVc0UnMxNFRCdjhLRDc3LWFrY29MYjF6QzhIOFU1SGFEVklxRWNMMVBveXVsRjEyN1l2QzByYUp5YUtXeXZNaDZuQkdtdw?oc=5",
-    "category": "top_5",
-    "sent_at": "2026-10-11T01:43:07.976327+00:00"
-  },
-  {
-    "title": "Elon Musk's SpaceX ambition grows: From being ‘worth more than Earth’ to ‘orders of magnitude’ beyond the global economy",
-    "url": "https://www.livemint.com/companies/people/elon-musks-spacex-ambition-grows-from-being-worth-more-than-earth-to-orders-of-magnitude-beyond-the-global-economy-11791666095893.html",
-    "category": "top_5",
-    "sent_at": "2026-10-11T01:43:07.976327+00:00"
-  },
-  {
-    "title": "Nippon Express completes acquisition of Metro Supply Chain Group",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTXZZZm9MdXdGdjVCTFFTUTdYNG83UGVGXzNoRVhFUXB6QXRQaHdIR1NLYmdVcDZMeFdvUjN4X0hnTkJEcFdhS0dDNkVITFgxRGNGRmtmM3VnX1lUTWFGNWVVTDJ3bHJ1UWRxa3Y2N2x6bVlNYk5nai1oNXNtYXFEUU1YSEp0Q1VTQ0NJQjl2S2luWERfdUdj?oc=5",
-    "category": "operations",
-    "sent_at": "2026-10-11T01:43:07.976327+00:00"
-  },
-  {
-    "title": "Drought, ethanol demand squeeze meat retailers as feed costs rise",
-    "url": "https://www.livemint.com/industry/drought-ethanol-demand-squeeze-meat-retailers-as-feed-costs-rise-11791509694091.html",
-    "category": "operations",
-    "sent_at": "2026-10-11T01:43:07.976327+00:00"
-  },
-  {
-    "title": "Gold jewellers brace for Q3 after growth cools in Q2",
-    "url": "https://www.livemint.com/industry/gold-jewellers-brace-for-q3-after-growth-cools-in-q2-11791528424476.html",
-    "category": "operations",
-    "sent_at": "2026-10-11T01:43:07.976327+00:00"
-  },
-  {
-    "title": "Cog Culture Partners With PRP Group To Strengthen Its Public Relations Offering",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbzB1MzZPUjBZOUo3bHRFLUxmbDdqb1l2TXI1VldwODVyVi1zdW9MYmpKc0daaGpDQ01XNVNHR3JnUWNOTUd3TWhDN082MEZJc1RsaDVkOWVNc2tsNm5OeTR4VjVOajRDLVhzUWZpWUhVZjRhTDFsUUhleGhQbzYzeFdzT2JSb1JGOGtZcDVUZW55V2tmbzJDSG5fdmdYcjRwOWlWcUFDY3o4SzNBcFRBZFNZU0pMRklJNE1RX2loR003SVBZdHc?oc=5",
-    "category": "marketing",
-    "sent_at": "2026-10-11T01:43:07.976327+00:00"
-  },
-  {
-    "title": "The Sleep Company’s D2C-to-Store Expansion Model",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMXFYa1JqeEt4dGRyekxDVDZfWVhoSWg1ZlVIdjM5Nm1qN1JQZ1RaTkoxc3FERVZaMzRGcW9Xa3c2YWNQN18wRURzVHQ2Y0hjNmlvY0JjbG9oTEE5dUJ4OWVGcHFXZ3JKcEtBYmdzQU9GaVhMVDNHRDE3N3UwY3dnWjNQLTFrZw?oc=5",
-    "category": "marketing",
-    "sent_at": "2026-10-11T01:43:07.976327+00:00"
-  },
-  {
-    "title": "D2C Brand Nat Habit Raises ₹142 Cr To Scale Offline Expansion",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSkotS0lfcFhRZHFiNW5abi13ekhnZkljcnNBNXAyT09XbU5EQlE3UklVRHZUNU9CcEJqMWFNTFhhWGVpeEtIaHFiZEc4Ym9fbVZDaXlpNWN5LThGMzJfb29OQVRzS0FHLW0xSElobUhfVU4zUVdIOFhCRkh2RXlBbEtJMFpWYnd1b0NwaTllRDZLb3lWdENnVA?oc=5",
-    "category": "marketing",
-    "sent_at": "2026-10-11T01:43:07.976327+00:00"
-  },
-  {
     "title": "Supply-chain shifts, policy push fuel India’s manufacturing startup boom",
     "url": "https://www.livemint.com/companies/supplychain-shifts-policy-push-fuel-india-s-manufacturing-startup-boom-11791710198682.html",
     "category": "top_5",
@@ -922,5 +856,71 @@
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYkFaNUNPTC1pelpaUHhEdDdkREV5RHFPR0h1NHhGUWtGWXM4cVRrVWwxZEo3cVltd2ZyWWUzamI5NWFoQzhGLVV6WHVvSFE4amJZSU5ZVjVRYUdJeEw1RGRQQ2tlR3I1U1BNYUpCWURMR3czOUpYN2MxSXdYQS1HbGQ5Y0toR0MxcU1Yc2dzdFB0QVdHYjFESWVnUEhvbDI2ZEN2dkR5SWRYR181ZlAtN1RWMXFmU1R5M0Y2S25nRVhBdE5tTGc?oc=5",
     "category": "marketing",
     "sent_at": "2026-10-24T06:10:44.976328+00:00"
+  },
+  {
+    "title": "India's Kotak Bank Q2 profit rises 29%, beats estimates",
+    "url": "https://www.livemint.com/industry/banking/indias-kotak-bank-q2-profit-rises-29-beats-estimates-11792850207185.html",
+    "category": "top_5",
+    "sent_at": "2026-10-25T06:31:13.114710+00:00"
+  },
+  {
+    "title": "Chery Eyes Canada Production as Chinese Carmakers Circle U.S.",
+    "url": "https://www.supplychainbrain.com/articles/45079-chery-eyes-canada-production-as-chinese-carmakers-circle-us",
+    "category": "top_5",
+    "sent_at": "2026-10-25T06:31:13.114710+00:00"
+  },
+  {
+    "title": "Reliance Jio IPO: Who is Arjun Vaidya? Bizman shares why his friend Akash Ambani returned to India from US | Video",
+    "url": "https://www.livemint.com/companies/people/reliance-jio-ipo-who-is-arjun-vaidya-bizman-shares-why-his-friend-akash-ambani-returned-to-india-from-us-video-11792851277334.html",
+    "category": "top_5",
+    "sent_at": "2026-10-25T06:31:13.114710+00:00"
+  },
+  {
+    "title": "Platform deals on the rise in pharma and healthcare: Rothschild & Co. MD Subhakanta Bal",
+    "url": "https://www.livemint.com/industry/platform-deals-on-the-rise-in-pharma-and-healthcare-rothschild-co-md-subhakanta-bal-11792737782567.html",
+    "category": "top_5",
+    "sent_at": "2026-10-25T06:31:13.114710+00:00"
+  },
+  {
+    "title": "Navi Mumbai International Airport adds 9 destinations: Check new routes to Agatti, Guwahati, Udaipur and more",
+    "url": "https://www.livemint.com/industry/infrastructure/navi-mumbai-international-airport-adds-9-destinations-check-new-routes-to-agatti-guwahati-udaipur-and-more-11792855087791.html",
+    "category": "top_5",
+    "sent_at": "2026-10-25T06:31:13.114710+00:00"
+  },
+  {
+    "title": "Delhi Varanasi Vande Bharat Sleeper from 31 Oct? Check stoppages, stations, timetable, ticket price expectations & more",
+    "url": "https://www.livemint.com/industry/infrastructure/delhi-varanasi-vande-bharat-sleeper-from-31-oct-check-stoppages-stations-timetable-ticket-price-expectations-11792903378580.html",
+    "category": "operations",
+    "sent_at": "2026-10-25T06:31:13.114710+00:00"
+  },
+  {
+    "title": "Bengaluru-Mumbai Vande Bharat Sleeper to launch next month: Check timings, fare, and route details",
+    "url": "https://www.livemint.com/industry/infrastructure/bengalurumumbai-vande-bharat-sleeper-to-launch-next-month-check-timings-fare-and-route-details-11792820037628.html",
+    "category": "operations",
+    "sent_at": "2026-10-25T06:31:13.114710+00:00"
+  },
+  {
+    "title": "FICCI Urges Dutch Investment in India's Mfg & Tech Sectors",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObl9nWHdhYndGbnV1S0V1Um9nZGJCWDJKZkJNVE5HYWQxbW1VaFRybFE2ZHc4Y3NmSTh0V2NZRFU4LUthS3dIZldyM2JQWFFOQU8xNF94RmVNOG5nRVZiYXRFSDJRaVJxdk8yN2ctemxSSDFGX0t2NVlSd2JjSW02LXhGY2RQVUVfYzRDQVRtcV9CVnJNRFBBdnUwV21FVjJyN2JPTzROclBFYk5n0gGyAUFVX3lxTE53Ulc5eUdTNkhBOXpSQ3pnam94ckxLUTNQUDk2WDBvcUxwLXVqQTJHaTlNdjJPdTlhN09PTWJOVWpZQkhwMGFFa0NPbklkU0QxTm9kRGtYSG1qckZHUHZNNmN0R1E5OERBWUhNa3ZLSjdZbGM5dVl6NWxmNXlLek50ODVFRHFRd0N5ZW9oT3FCdXpjZkRwcDlqVmJUaDl1N09EWEZhVkNxQlQzaS1KZ0JRcHc?oc=5",
+    "category": "operations",
+    "sent_at": "2026-10-25T06:31:13.114710+00:00"
+  },
+  {
+    "title": "Allison unveils brand strategy post-Dana acquisition",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVE1tR0ZwRksyazlTb3p0ckdoMnd1TjVkNjE3YlA4d0M4WEtXTHI2VGxQdVpxMEZrdERDNGdTcHZBcEMzOXpfRzdsVC1ia2cyVmNRaTZpVzhXUDJhdHl5eFRERm9DSVhnc2M2LTBKUEVhUFo5RWVxSVdFb0JGcWJwaGxlQ1RZQUlacWJ3d24ySVlzdGdHcDd3NEo0NzEzenBlcGxvQlhzX19SZDA?oc=5",
+    "category": "marketing",
+    "sent_at": "2026-10-25T06:31:13.114710+00:00"
+  },
+  {
+    "title": "D2C brands target 30 pc festive growth as acquisition costs rise 20 pc, baskets shrink",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOT1FZc1dtVnRqSU1KSVYta2hVSnZVdkM1bTFTUGNWZmpnSl92eUFCbHVJRGNZRmlKQXVBYmhOZE41MmlZc19mNHNJTFZMSktydHdodWJiOVptNW9taGY5SEJWdEN0N2VZc1lEWlh2WGdibGptRnRpeHBuR1JrajNSVk5xdkJvYUlhdHcyQUFMMUh1Y2EwSk5Hb2pYWXdwU2JjX3ZvU2RZeFZBZW1jRjJ0b2ZVS044NXFnbzhXRnRFZ2tiM2dFSnBsdTJnNWRHMHR3Vmw4d0Q2VGZ5akczcnlULWU4YkpLcVo2Qms5dlMtOE1BYXpvQ2tvTdIB_gFBVV95cUxPcWFsWW9JeGpDSHZfNS1tUXgyY1pmaGVGelZ1T0FpbEZnVlZLNldzRmpTS2o3amIzYVNOOURNSk1xQi1MdTlDUFJGTGRqaDRVQ0ZKOXZLUHVFTzlpQVVIU2x1VXA1Um9lMm42MTg3VE5oc09vaFRibHNHTmY1Sm03bWRYaWhWeEhvTmw0RUVGRG5WU0JWS1FqVkgyTng1UEVheTlzUjJIYzFzU1JMMXQ2amxNQk5Zbl9DdEsxWmtMa0VHY1drcDhuUlhuWW9OSGhlMGF3MU1neGxSclVoeUR0UC1SMFhlRWNLaWYwVXNRb3JFbVpXcHZleUVOMlc2UQ?oc=5",
+    "category": "marketing",
+    "sent_at": "2026-10-25T06:31:13.114710+00:00"
+  },
+  {
+    "title": "The Role of Digital Marketing in the Modern Film Industry and Distribution",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUnVGRTlVWE44OVYzTW5GQ2RtVHEwaUtmaE41Y1ZVTlhsem1pZnNHR0xnUWUyNGJBd1hRQXJHNGo4YURtTTAzZUhpb3FjV3pXbWVJd2p2NUUzVHhubUp3UDhpN0xqUDRKN0pPS0pOVU5CWGhiWWVhTmRNS3BqX3BJU0FTNHJoNWx4cW91OWY2NXZQdmo1YmpHUlpWaWcxdHNKeVN3bzYwUWh6RlhrVTl4Y09scmlxeG8?oc=5",
+    "category": "marketing",
+    "sent_at": "2026-10-25T06:31:13.114710+00:00"
   }
 ]
