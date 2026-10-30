@@ -1,71 +1,5 @@
 [
   {
-    "title": "Their 3PL Dropped Them in 2022 – They Have Grown 15x Since",
-    "url": "https://www.supplychainbrain.com/articles/45022-their-3pl-dropped-them-in-2022-they-have-grown-15x-since",
-    "category": "top_5",
-    "sent_at": "2026-10-16T01:57:42.003395+00:00"
-  },
-  {
-    "title": "The Doorstep Decides",
-    "url": "https://www.supplychainbrain.com/articles/45009-the-doorstep-decides",
-    "category": "top_5",
-    "sent_at": "2026-10-16T01:57:42.003395+00:00"
-  },
-  {
-    "title": "Fairfax wins nod to acquire IDBI Bank, but faces challenge of shifting its public-sector culture",
-    "url": "https://www.livemint.com/industry/banking/idbi-bank-privatisation-impact-on-employees-11792062346781.html",
-    "category": "top_5",
-    "sent_at": "2026-10-16T01:57:42.003395+00:00"
-  },
-  {
-    "title": "Sociable: TikTok inks microdrama partnership with Made By Us studios",
-    "url": "https://www.marketingdive.com/news/sociable-tiktok-inks-microdrama-partnership-with-made-by-us-studios/833115/",
-    "category": "top_5",
-    "sent_at": "2026-10-16T01:57:42.003395+00:00"
-  },
-  {
-    "title": "Arby’s hires ex-Papa Johns CMO to balance brand-building, sales growth",
-    "url": "https://www.marketingdive.com/news/arbys-hires-ex-papa-johns-cmo-to-balance-brand-building-sales-growth/833184/",
-    "category": "top_5",
-    "sent_at": "2026-10-16T01:57:42.003395+00:00"
-  },
-  {
-    "title": "Port of Savannah Approved for New 3.5M TEU Terminal",
-    "url": "https://www.supplychainbrain.com/articles/45029-port-of-savannah-approved-for-new-35m-teu-terminal",
-    "category": "operations",
-    "sent_at": "2026-10-16T01:57:42.003395+00:00"
-  },
-  {
-    "title": "Designing for Uncertainty: A Flexibility-First Approach to Warehouse Automation",
-    "url": "https://www.supplychainbrain.com/articles/44715-designing-for-uncertainty-a-flexibility-first-approach-to-warehouse-automation",
-    "category": "operations",
-    "sent_at": "2026-10-16T01:57:42.003395+00:00"
-  },
-  {
-    "title": "Fairfax’s IDBI Bank deal puts CSB Bank’s ownership and future in focus",
-    "url": "https://www.livemint.com/industry/banking/idbi-csb-bank-merger-after-fairfax-deal-11792055129362.html",
-    "category": "operations",
-    "sent_at": "2026-10-16T01:57:42.003395+00:00"
-  },
-  {
-    "title": "Elon Musk Praises Micron's Pricing Strategy. Its $150 Billion Contract Book Explains Why",
-    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSVc1ZXpMdnhIdmR2Z1VhLTkzN1dnQnp0YkV0Wk0wWEd5Xy1FcldwSGw2Wk9jU1ZCVjNEMWxQdVpMWXdQejNwSnAteXpoTkFiRWZvUllTb2VRTjlSdHZ0Q1NvcHV2QThDazVPNjhUaVduNmRRdFRUdVhmOW8yR3lITFdCblB5NjNZMm5MdkVST2ZocmMyN3h5RmpCcGhEblRVeTJyT2dYd2JSRThpQU9KMTFHTWxkYUZRTHlhYlBLRHRzUjNKb2hVdko2RTZIZG4wTTRXMEo4eTZhUmpjX1E?oc=5",
-    "category": "marketing",
-    "sent_at": "2026-10-16T01:57:42.003395+00:00"
-  },
-  {
-    "title": "Influencer Marketing Investment Jumps 33%. CreatorIQ Ties ROI To Speed.",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU3NGUVRzMUl6U1c5dmEtRUd2cG10QjNPMGd2UVlrVjJ0SjhuQzdGQVlGMGZjLWppX3JGWjJwLVYxX3dQdEFoelZHNUo5MDRnXzBrU05qU2JyaldwRGRPZ2xUR01SUGZlLXRYaW54ckpMQWtxNDhQZmhmUzRpMklWeVpJOGRlN1ZGRFVidzIzMm5tTWhzSEdTM083WWtnX1VYVUYxVndacjZmRzBac1Q3bjB6eEN2a0JjREwxaHM4OWZsQQ?oc=5",
-    "category": "marketing",
-    "sent_at": "2026-10-16T01:57:42.003395+00:00"
-  },
-  {
-    "title": "E.l.f. Cosmetics returns to metaverse on avatar-based gaming platform",
-    "url": "https://www.marketingdive.com/news/elf-cosmetics-returns-to-metaverse-on-avatar-based-gaming-platform/833027/",
-    "category": "marketing",
-    "sent_at": "2026-10-16T01:57:42.003395+00:00"
-  },
-  {
     "title": "DP World eyes $5 bn India investment, warns West Asia crisis is rewiring global trade",
     "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/dp-world-eyes-5-bn-india-investment-warns-west-asia-crisis-is-rewiring-global-trade/articleshow/134990040.cms",
     "category": "top_5",
@@ -922,5 +856,71 @@
     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQaFdxTS05bkMtQ0REWXQyMVBORXlicTRDOW9NMEc0WDcybXl1UXhBQ2s2OGZMdjJOeTRacnMtR2stODJRQU43TFRWWVBtaDI4Z3ZOb0pfYlhyV1hEaFhjMDNyOTdJOVcwMm9Idi1EN0lMRHIyWXp0dndhSmVabnBFM19qdW5HaHJySnJ5aVFqeU9mU1BNNS10MWZmR08wbk9JbkduY0JpRVpPcHhkbWpaRFh6bDBqb0o2OW5KeVVqejVxQ3ZWanI0X2JKRnFBNTZGbmZleHh6dGl2QXI1SVF2SVdlNDhWaldQNWZyMWJLMFFRalZRdGhTQdIB_gFBVV95cUxQZGZLZzhLSXhCSjZ4UlhKLUtpSWtJWmM1a0hVdzhrRFZZVE5LdFoxNjJmUWhhZHBfRC11SXFyRnQ5X1lEYXFmMW5uZEdYNkp1Uld0NzZJNVlsQzlONHowNVlUQVA3SVd0UGZPN3laX2k5M3YtY0hqcF85Tzh5aWlySHg0bUpEVThpcFFyWVo5WnlfYV9VeTV6V21uMGhodUZDN1VEX3lkRzlqaEt0WkRnR3hPRk5jbkFfNXNJM1QzSmtUaHc2RUJsN0I0TnU3bzEyZlhoRTk5WkhHdG9mVUg3Vm5fSjV3cFcybUphTTlXTXJkVG5DbmI1QzN5QlNtZw?oc=5",
     "category": "marketing",
     "sent_at": "2026-10-29T07:27:01.286610+00:00"
+  },
+  {
+    "title": "FedEx Freight Has Mixed Results in First Earnings After Spinoff",
+    "url": "https://www.supplychainbrain.com/articles/45121-fedex-freight-has-mixed-results-in-first-earnings-after-spinoff",
+    "category": "top_5",
+    "sent_at": "2026-10-30T07:30:28.442964+00:00"
+  },
+  {
+    "title": "Tamilnad Mercantile Bank seeks RBI nod for share transfers, gets board backing for expansion",
+    "url": "https://www.livemint.com/industry/banking/tamilnad-mercantile-bank-rbi-approval-share-transfers-expansion-11793333344595.html",
+    "category": "top_5",
+    "sent_at": "2026-10-30T07:30:28.442964+00:00"
+  },
+  {
+    "title": "DoorDash’s $17 Billion Instacart Deal Aimed at Walmart, Amazon",
+    "url": "https://www.supplychainbrain.com/articles/45114-doordashs-17-billion-instacart-deal-aimed-at-walmart-amazon",
+    "category": "top_5",
+    "sent_at": "2026-10-30T07:30:28.442964+00:00"
+  },
+  {
+    "title": "Vedanta lines up USD 25 bn investment over 3 years for organic growth; eyes USD 50 bn revenue",
+    "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/vedanta-lines-up-usd-25-bn-investment-over-3-years-for-organic-growth-eyes-usd-50-bn-revenue/articleshow/135325557.cms",
+    "category": "top_5",
+    "sent_at": "2026-10-30T07:30:28.442964+00:00"
+  },
+  {
+    "title": "Equitas MD quits citing overhang from daughter's business, shares crash",
+    "url": "https://www.livemint.com/industry/banking/equitas-md-quits-citing-overhang-from-daughters-business-shares-crash-11793281225794.html",
+    "category": "top_5",
+    "sent_at": "2026-10-30T07:30:28.442964+00:00"
+  },
+  {
+    "title": "Aurora’s Driverless Trucks on Pace for 2027 Expansion Target",
+    "url": "https://www.supplychainbrain.com/articles/45118-auroras-driverless-trucks-on-pace-for-2027-expansion-target",
+    "category": "operations",
+    "sent_at": "2026-10-30T07:30:28.442964+00:00"
+  },
+  {
+    "title": "The 16th Asian Logistics, Maritime and Aviation Conference",
+    "url": "https://www.supplychainbrain.com/articles/45120-the-16th-asian-logistics-maritime-and-aviation-conference",
+    "category": "operations",
+    "sent_at": "2026-10-30T07:30:28.442964+00:00"
+  },
+  {
+    "title": "Chip Crisis Puts Next Generation of Gaming Consoles to the Test",
+    "url": "https://www.supplychainbrain.com/articles/45117-chip-crisis-puts-next-generation-of-gaming-consoles-to-the-test",
+    "category": "operations",
+    "sent_at": "2026-10-30T07:30:28.442964+00:00"
+  },
+  {
+    "title": "Google’s AI overhaul of search hits snags as ad revenue growth cools",
+    "url": "https://www.marketingdive.com/news/googles-ai-overhaul-of-search-hits-snags-as-ad-revenue-growth-cools/873150/",
+    "category": "marketing",
+    "sent_at": "2026-10-30T07:30:28.442964+00:00"
+  },
+  {
+    "title": "What marketers should know about the legal risks of algorithmic pricing",
+    "url": "https://www.marketingdive.com/news/what-marketers-should-know-about-the-legal-risks-of-algorithmic-pricing/832963/",
+    "category": "marketing",
+    "sent_at": "2026-10-30T07:30:28.442964+00:00"
+  },
+  {
+    "title": "Sociable: Meta says its expanded processing capacity is driving ad results",
+    "url": "https://www.marketingdive.com/news/sociable-meta-says-its-expanded-processing-capacity-is-driving-ad-results/873191/",
+    "category": "marketing",
+    "sent_at": "2026-10-30T07:30:28.442964+00:00"
   }
 ]
