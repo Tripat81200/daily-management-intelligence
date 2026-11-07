@@ -1,71 +1,5 @@
 [
   {
-    "title": "Infosys CEO says macro recovery looks ‘a little bit more uneven’ than expected",
-    "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/infosys-expected-tech-spending-recovery-looks-uneven-ceo-salil-parekh/articleshow/135145876.cms",
-    "category": "top_5",
-    "sent_at": "2026-10-24T06:10:44.976328+00:00"
-  },
-  {
-    "title": "Omnicom-IPG deal ‘substantially completed’ as group wins Coke’s NA media",
-    "url": "https://www.marketingdive.com/news/omnicom-ipg-deal-substantially-completed-as-group-wins-cokes-na-media/833837/",
-    "category": "top_5",
-    "sent_at": "2026-10-24T06:10:44.976328+00:00"
-  },
-  {
-    "title": "American Express layoffs: 78,000 employees in firm; the move will affect about 3,500 jobs - here's what AmEx plans to do",
-    "url": "https://www.livemint.com/companies/news/american-express-layoffs-78-000-employees-in-firm-the-move-will-affect-about-3-500-jobs-heres-what-amex-plans-to-do-11792772705662.html",
-    "category": "top_5",
-    "sent_at": "2026-10-24T06:10:44.976328+00:00"
-  },
-  {
-    "title": "ASML's CEO faces a high-stakes test: Christophe Fouquet bets his pay on happier workers after a major corporate shake-up",
-    "url": "https://www.livemint.com/companies/news/asmls-ceo-faces-a-high-stakes-test-christophe-fouquet-bets-his-pay-on-happier-workers-after-a-major-corporate-shakeup-11792817809730.html",
-    "category": "top_5",
-    "sent_at": "2026-10-24T06:10:44.976328+00:00"
-  },
-  {
-    "title": "Amazon's cloud is nearly sold out through 2027. Can its AI spending keep up with demand?",
-    "url": "https://www.livemint.com/companies/news/amazons-cloud-is-nearly-sold-out-through-2027-can-its-ai-spending-keep-up-with-demand-11792813908903.html",
-    "category": "top_5",
-    "sent_at": "2026-10-24T06:10:44.976328+00:00"
-  },
-  {
-    "title": "Government weighs ₹40,000-crore plan to modernise textile clusters over five years",
-    "url": "https://www.livemint.com/industry/government-weighs-40-000-crore-plan-to-modernise-textile-clusters-over-five-years-11792755760493.html",
-    "category": "operations",
-    "sent_at": "2026-10-24T06:10:44.976328+00:00"
-  },
-  {
-    "title": "Firms Race to Fix Widespread Cyber Flaw Before Hackers Break In",
-    "url": "https://www.supplychainbrain.com/articles/45077-firms-race-to-fix-widespread-cyber-flaw-before-hackers-break-in",
-    "category": "operations",
-    "sent_at": "2026-10-24T06:10:44.976328+00:00"
-  },
-  {
-    "title": "Beyond the stipend: how firms are competing for MBA interns",
-    "url": "https://www.livemint.com/industry/beyond-the-stipend-how-firms-are-competing-for-mba-interns-11792741808909.html",
-    "category": "operations",
-    "sent_at": "2026-10-24T06:10:44.976328+00:00"
-  },
-  {
-    "title": "Inside Coca-Cola’s marketing transformation amid agency roster shake-up",
-    "url": "https://www.marketingdive.com/news/inside-coca-colas-marketing-transformation-amid-agency-roster-shakeup/833809/",
-    "category": "marketing",
-    "sent_at": "2026-10-24T06:10:44.976328+00:00"
-  },
-  {
-    "title": "JK Cement’s Premium Brand Strategy in Value-Added Cement Products",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRVpFaF80ckpIM1d6aWZ5LVJrVlprYWd0UWNaR3diSkZPYkJVX3ZMeUZrT3VFRE4wa0JSM2w3eXpZSDVnR2U3bkJSRG1rc04ybGxjQ0dVTGZKVkFZcjZEeWZwZ3dsaWk2WUJjckJtZG4tdFhWeS02RUIxd2E3cDFBVGx4NGZKOWRsWURPdHhyTE9HTXZBb3l6TURuUUVfYVE?oc=5",
-    "category": "marketing",
-    "sent_at": "2026-10-24T06:10:44.976328+00:00"
-  },
-  {
-    "title": "Kinnect taps Shipra Chinchankar as National Planning Director to strengthen brand strategy in India",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYkFaNUNPTC1pelpaUHhEdDdkREV5RHFPR0h1NHhGUWtGWXM4cVRrVWwxZEo3cVltd2ZyWWUzamI5NWFoQzhGLVV6WHVvSFE4amJZSU5ZVjVRYUdJeEw1RGRQQ2tlR3I1U1BNYUpCWURMR3czOUpYN2MxSXdYQS1HbGQ5Y0toR0MxcU1Yc2dzdFB0QVdHYjFESWVnUEhvbDI2ZEN2dkR5SWRYR181ZlAtN1RWMXFmU1R5M0Y2S25nRVhBdE5tTGc?oc=5",
-    "category": "marketing",
-    "sent_at": "2026-10-24T06:10:44.976328+00:00"
-  },
-  {
     "title": "India's Kotak Bank Q2 profit rises 29%, beats estimates",
     "url": "https://www.livemint.com/industry/banking/indias-kotak-bank-q2-profit-rises-29-beats-estimates-11792850207185.html",
     "category": "top_5",
@@ -922,5 +856,71 @@
     "url": "https://www.marketingdive.com/news/mcdonalds-us-cmo-steps-down-as-sales-decline/873927/",
     "category": "marketing",
     "sent_at": "2026-11-06T08:15:23.442732+00:00"
+  },
+  {
+    "title": "OpenAI raises $11 billion at $1.25 trillion valuation amid concerns over AI spending and regulation",
+    "url": "https://www.livemint.com/companies/news/openai-raises-11-billion-at-1-25-trillion-valuation-amid-concerns-over-ai-spending-and-regulation-11794022360992.html",
+    "category": "top_5",
+    "sent_at": "2026-11-07T07:31:15.848031+00:00"
+  },
+  {
+    "title": "Anthropic IPO valuation: Why investors are lowering expectations after Wall Street sell-off",
+    "url": "https://www.livemint.com/companies/news/anthropic-ipo-valuation-why-investors-are-lowering-expectations-after-wall-street-selloff-11794013538561.html",
+    "category": "top_5",
+    "sent_at": "2026-11-07T07:31:15.848031+00:00"
+  },
+  {
+    "title": "Who is Sunil D'Souza? Meet Voltas' new Chairman, his career, education and why Noel Tata is stepping down",
+    "url": "https://www.livemint.com/companies/people/voltas-gets-a-new-chairman-who-is-sunil-dsouza-his-career-and-education-and-why-is-noel-tata-stepping-down-11794030619663.html",
+    "category": "top_5",
+    "sent_at": "2026-11-07T07:31:15.848031+00:00"
+  },
+  {
+    "title": "How Lands’ End’s holiday pop-up feeds an always-on marketing strategy",
+    "url": "https://www.marketingdive.com/news/how-lands-ends-holiday-pop-up-feeds-an-always-on-marketing-strategy/873792/",
+    "category": "top_5",
+    "sent_at": "2026-11-07T07:31:15.848031+00:00"
+  },
+  {
+    "title": "UP CEO’s rate threat adds wrinkle to Norfolk Southern merger process",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYk15NWp5R3VEci16WUZvLUVZd1pIV3VJMlVpci12NndOdEpKQUJsQm0zUEZ4ZFFpeDIzYWw5aEhSWHBCczc2bzFmQVEyUy1OYkt5Y1IxWDlIbG0yY0g0UVQ5aUFud2swRXhQVDZtR0E3ZTZ2aFFMRTlJNkFwcjNTN3FrU0dNeGxCak5qMGRmV3plUHpBeU1zM2FJcVVBdXF2NzFnd2Rwdnpac3NPU1Q5QXBR?oc=5",
+    "category": "top_5",
+    "sent_at": "2026-11-07T07:31:15.848031+00:00"
+  },
+  {
+    "title": "Floods and falling fire rates hurt general insurers in September quarter",
+    "url": "https://www.livemint.com/industry/floods-and-falling-fire-rates-hurt-general-insurers-in-september-quarter-11793939120500.html",
+    "category": "operations",
+    "sent_at": "2026-11-07T07:31:15.848031+00:00"
+  },
+  {
+    "title": "U.S. Proposes Space Launch Rule Changes in Potential Boost for SpaceX",
+    "url": "https://www.supplychainbrain.com/industries/aerospace-defense/article/16424458/us-proposes-space-launch-rule-changes-in-potential-boost-for-spacex",
+    "category": "operations",
+    "sent_at": "2026-11-07T07:31:15.848031+00:00"
+  },
+  {
+    "title": "FMCG giants find their sweet spot in India",
+    "url": "https://www.livemint.com/industry/global-fmcg-companies-india-fmcg-earnings-india-11793851128647.html",
+    "category": "operations",
+    "sent_at": "2026-11-07T07:31:15.848031+00:00"
+  },
+  {
+    "title": "Lululemon names brand, strategy chiefs in latest executive shakeup",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOE4wdnlsT1Vqc3NWOC1WWFE5a2pyYWFGM1NWUEVSZWpIQ0NVUUNpOTVGZzVGSks2QmNfaVc1NXdDNi1GVHAxbmwzOXFHRmdhSVY3eVdpVVNCYWRJWWhaenZfV1UxUWdWalhKcVg4X0ZFMElTXzR6eXNUSnd5SUs3eFJ1UUNLNWd2UEl5ek8wbG5fMjVyY1lIcFBPaXBLVkpNdmN4LTBaM1JzTm1LYUZMdFF1LTBVTkN0OHl5d0ZiRTJNZVFjVnc?oc=5",
+    "category": "marketing",
+    "sent_at": "2026-11-07T07:31:15.848031+00:00"
+  },
+  {
+    "title": "Lululemon CEO Heidi O’Neill Fills Key Brand and Strategy Positions for Reset",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdG9TTWdiaXVVZ3hqUUFzemZqR1pvZzkxbVJSWXF1dlJwaTRaQzAzbDEwZkRQcEZyTmRwOEhGMkhFWWcxQTZESnhUa3M1SWlob0Z0SzdTa2g5YVpuMENxZVhmSXJ4azZQQXpwVHlWQk1PUHpIbDk1NHRPZE5hZk5uYk9aNVV0b0NvcGlzUzRadjZ6YUd6eVVBNXk2bWtHZTF3VnVqbA?oc=5",
+    "category": "marketing",
+    "sent_at": "2026-11-07T07:31:15.848031+00:00"
+  },
+  {
+    "title": "SXTC Global Brand Consulting Accelerate Global Brand Strategy Leadership Through Advanced AI Integration AI Brand 5.0™ - azcentral.com and The Arizona Republic",
+    "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNb2M4OHpJekdyVGRWM2Z2SHNWNmhhRnRLall4dmdEY1dqVlFmbUc0WlpNeVJDZEZIYzRtcl94RmdVcE1qb3RjNGZ4dE9MT2RLUjJrV3ZCdzJCRFhmQjFMS09yeXkySzBGV0hDUy1rRVpSd010elAxX1Flb05BRXhoTHNVa05EN2lFdVdoRnQ0ZzUzYkh6NXZNN0hnRGY5d0duRkhjV1BQdmlzam5PTW1uMEg0X1c1MWhsQTFmcUhISkthb255QzVQYTc5ekl2MDlRTUh1S05zcHpmNlhLVzJiWnNMTGhMRnhnSUVEZEJGUFlid28wZjFQTm1Xb3drOHp2?oc=5",
+    "category": "marketing",
+    "sent_at": "2026-11-07T07:31:15.848031+00:00"
   }
 ]
