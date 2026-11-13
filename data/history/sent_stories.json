@@ -1,71 +1,5 @@
 [
   {
-    "title": "FedEx Freight Has Mixed Results in First Earnings After Spinoff",
-    "url": "https://www.supplychainbrain.com/articles/45121-fedex-freight-has-mixed-results-in-first-earnings-after-spinoff",
-    "category": "top_5",
-    "sent_at": "2026-10-30T07:30:28.442964+00:00"
-  },
-  {
-    "title": "Tamilnad Mercantile Bank seeks RBI nod for share transfers, gets board backing for expansion",
-    "url": "https://www.livemint.com/industry/banking/tamilnad-mercantile-bank-rbi-approval-share-transfers-expansion-11793333344595.html",
-    "category": "top_5",
-    "sent_at": "2026-10-30T07:30:28.442964+00:00"
-  },
-  {
-    "title": "DoorDash’s $17 Billion Instacart Deal Aimed at Walmart, Amazon",
-    "url": "https://www.supplychainbrain.com/articles/45114-doordashs-17-billion-instacart-deal-aimed-at-walmart-amazon",
-    "category": "top_5",
-    "sent_at": "2026-10-30T07:30:28.442964+00:00"
-  },
-  {
-    "title": "Vedanta lines up USD 25 bn investment over 3 years for organic growth; eyes USD 50 bn revenue",
-    "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/vedanta-lines-up-usd-25-bn-investment-over-3-years-for-organic-growth-eyes-usd-50-bn-revenue/articleshow/135325557.cms",
-    "category": "top_5",
-    "sent_at": "2026-10-30T07:30:28.442964+00:00"
-  },
-  {
-    "title": "Equitas MD quits citing overhang from daughter's business, shares crash",
-    "url": "https://www.livemint.com/industry/banking/equitas-md-quits-citing-overhang-from-daughters-business-shares-crash-11793281225794.html",
-    "category": "top_5",
-    "sent_at": "2026-10-30T07:30:28.442964+00:00"
-  },
-  {
-    "title": "Aurora’s Driverless Trucks on Pace for 2027 Expansion Target",
-    "url": "https://www.supplychainbrain.com/articles/45118-auroras-driverless-trucks-on-pace-for-2027-expansion-target",
-    "category": "operations",
-    "sent_at": "2026-10-30T07:30:28.442964+00:00"
-  },
-  {
-    "title": "The 16th Asian Logistics, Maritime and Aviation Conference",
-    "url": "https://www.supplychainbrain.com/articles/45120-the-16th-asian-logistics-maritime-and-aviation-conference",
-    "category": "operations",
-    "sent_at": "2026-10-30T07:30:28.442964+00:00"
-  },
-  {
-    "title": "Chip Crisis Puts Next Generation of Gaming Consoles to the Test",
-    "url": "https://www.supplychainbrain.com/articles/45117-chip-crisis-puts-next-generation-of-gaming-consoles-to-the-test",
-    "category": "operations",
-    "sent_at": "2026-10-30T07:30:28.442964+00:00"
-  },
-  {
-    "title": "Google’s AI overhaul of search hits snags as ad revenue growth cools",
-    "url": "https://www.marketingdive.com/news/googles-ai-overhaul-of-search-hits-snags-as-ad-revenue-growth-cools/873150/",
-    "category": "marketing",
-    "sent_at": "2026-10-30T07:30:28.442964+00:00"
-  },
-  {
-    "title": "What marketers should know about the legal risks of algorithmic pricing",
-    "url": "https://www.marketingdive.com/news/what-marketers-should-know-about-the-legal-risks-of-algorithmic-pricing/832963/",
-    "category": "marketing",
-    "sent_at": "2026-10-30T07:30:28.442964+00:00"
-  },
-  {
-    "title": "Sociable: Meta says its expanded processing capacity is driving ad results",
-    "url": "https://www.marketingdive.com/news/sociable-meta-says-its-expanded-processing-capacity-is-driving-ad-results/873191/",
-    "category": "marketing",
-    "sent_at": "2026-10-30T07:30:28.442964+00:00"
-  },
-  {
     "title": "How Google is bucking tech industry's layoff trend; adds 10k employees in six months with different approach | Explained",
     "url": "https://www.livemint.com/industry/how-google-is-bucking-tech-industrys-layoff-trend-adds-10k-employees-in-six-months-with-different-approach-explained-11793357746021.html",
     "category": "top_5",
@@ -922,5 +856,71 @@
     "url": "https://www.marketingdive.com/news/carnival-gamifies-cruise-experience-via-interactive-twitch-livestream/874033/",
     "category": "marketing",
     "sent_at": "2026-11-12T08:38:53.681739+00:00"
+  },
+  {
+    "title": "Elon Musk's SpaceX-Tesla mega merger could be announced in December: What could derail the deal?",
+    "url": "https://www.livemint.com/companies/news/elon-musks-spacex-tesla-mega-merger-could-be-announced-in-december-what-could-derail-the-deal-11794535491532.html",
+    "category": "top_5",
+    "sent_at": "2026-11-13T08:28:20.450441+00:00"
+  },
+  {
+    "title": "Blackstone emerges frontrunner to buy Actis-owned BluPine at $1.8 billion valuation",
+    "url": "https://www.livemint.com/companies/news/blackstone-blupine-energy-acquisition-deal-11794486377121.html",
+    "category": "top_5",
+    "sent_at": "2026-11-13T08:28:20.450441+00:00"
+  },
+  {
+    "title": "Mondrio Raises $3.75 Million to Connect AI Pricing Strategy With Deal Execution",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBIRTdmeFVxQlNrbFFDbXRBWld6dVk2RGpEdGV1Z2ZvdmtnMW13QmZjdjJORVN3dmdVaEpjWHBxMmJtUmxIMU5wRGc0MTYwVGFsTVZkdU1yeUpNa3pQc3BmVktUT05qNFVfTVlyTHpObWJIQy1Obk9tNmdRZmczZw?oc=5",
+    "category": "top_5",
+    "sent_at": "2026-11-13T08:28:20.450441+00:00"
+  },
+  {
+    "title": "Back-to-Back Million+ TEU Months at PoLA Set Record",
+    "url": "https://www.supplychainbrain.com/logistics/global-gateways/article/16425480/backtoback-million-teu-months-at-pola-set-record",
+    "category": "top_5",
+    "sent_at": "2026-11-13T08:28:20.450441+00:00"
+  },
+  {
+    "title": "The Shipping Line Item That Erases Cyber Monday Profit",
+    "url": "https://www.supplychainbrain.com/blogs/think-tank/blog/15883282/the-shipping-line-item-that-erases-cyber-monday-profit",
+    "category": "top_5",
+    "sent_at": "2026-11-13T08:28:20.450441+00:00"
+  },
+  {
+    "title": "The Chinese Chemical Supply Chain Fueling the US Opioid Crisis",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSWJ1WDhrbXd3azJqM1RjMnBnTkNlckRGTC1BcGdaLXJZeEt0Q3A5S0gxSjNrMjFLZnAxYnItM2JvTzd5eWRLQlhEWnYyQnRCc1VicWI4RXRtYXVVM1RXYkhMSlRiU0N0SjQ1VlJnRC0wRHBJV0U4Q3dRUUxhZHdqdXpuVEtEaU5GYmpacWoxU0RhbzdGOE1WTWI3WGJCWDdEbWdVc0NzX19Ob3ZLNEpWV1JuWmluc0l3ejNHWk9hQXJSeE1vTTU2ZGlR?oc=5",
+    "category": "operations",
+    "sent_at": "2026-11-13T08:28:20.450441+00:00"
+  },
+  {
+    "title": "How Geopolitical Friction Is Redefining Cyber Resilience",
+    "url": "https://www.supplychainbrain.com/blogs/think-tank/blog/15883288/how-geopolitical-friction-is-redefining-cyber-resilience",
+    "category": "operations",
+    "sent_at": "2026-11-13T08:28:20.450441+00:00"
+  },
+  {
+    "title": "Nissan Reports Tough Market Conditions in China",
+    "url": "https://www.supplychainbrain.com/industries/automotive/article/16425426/nissan-reports-tough-market-conditions-in-china",
+    "category": "operations",
+    "sent_at": "2026-11-13T08:28:20.450441+00:00"
+  },
+  {
+    "title": "How Unilever’s social-first marketing is evolving amid reorganization",
+    "url": "https://www.marketingdive.com/news/how-unilevers-social-first-marketing-is-evolving-amid-reorganization/874457/",
+    "category": "marketing",
+    "sent_at": "2026-11-13T08:28:20.450441+00:00"
+  },
+  {
+    "title": "Welch’s holiday microdrama embraces Y2K nostalgia as Gen Z become parents",
+    "url": "https://www.marketingdive.com/news/welchs-holiday-microdrama-embraces-y2k-nostalgia-as-gen-z-become-parents/874453/",
+    "category": "marketing",
+    "sent_at": "2026-11-13T08:28:20.450441+00:00"
+  },
+  {
+    "title": "Navigating the regulatory maze of influencer marketing",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNzl3amtTQzJCNlRlZzNSVl95eGlzdHBBbEkyOHlhb1ctcEJoc3d1ZjF6Y0tGLU1HbU9RLU9HR2MwQzBRWlZVMzJXejJhdnhKUXcxLTZWcWhDdmJIYXdNZWtWNVhsVnpzeHpqaWRXMWpLdDdCX2JKcmNzNWR3X0tzZXhyODBZNFlNeWxKM2tIaHNQNHk1Yk9lRXNFdFJNdXpfNnRWY3h0bw?oc=5",
+    "category": "marketing",
+    "sent_at": "2026-11-13T08:28:20.450441+00:00"
   }
 ]
