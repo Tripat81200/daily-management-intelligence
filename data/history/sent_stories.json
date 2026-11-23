@@ -1,71 +1,5 @@
 [
   {
-    "title": "When should a hit show end? OTT platforms weigh the cost of another season",
-    "url": "https://www.livemint.com/industry/media/koffee-with-karan-karan-johar-jiostar-jiohotstar-ott-platforms-streaming-television-content-economics-11794042705362.html",
-    "category": "top_5",
-    "sent_at": "2026-11-09T08:23:17.029552+00:00"
-  },
-  {
-    "title": "Nvidia launches investigation into CEO over affair with alleged Chinese spy; Donald Trump calls Jensen Huang ‘honorable’",
-    "url": "https://www.livemint.com/companies/people/nvidia-launches-investigation-into-ceo-over-affair-with-alleged-chinese-spy-donald-trump-calls-jensen-huang-honorable-11794186568817.html",
-    "category": "top_5",
-    "sent_at": "2026-11-09T08:23:17.029552+00:00"
-  },
-  {
-    "title": "Short tenures, high expectations. The growing challenge for Indian CEOs",
-    "url": "https://www.livemint.com/industry/short-tenures-high-expectations-the-growing-challenge-for-india-incs-corner-office-czars-11793788321079.html",
-    "category": "top_5",
-    "sent_at": "2026-11-09T08:23:17.029552+00:00"
-  },
-  {
-    "title": "CTP accelerates Asian expansion with proposed acquisition of SLP portfolio and operating platform in Vietnam for ~US$500 million",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMHZQa05nNGI4TU9yZmt1b0EzWXVYeDBreGJaWDdhN0F0b0wtRVlocmZNTFZEV0dPNFh5NFEtVkc5QkZLeHRKanAxdWNtUjYtd2NOWFlZNXZxcGtLem45Qkw4ZnA3MTNXSGR0VzdqZmh6cXF3LUJNeVRRc2pQR2RWeVNZU1EwNkRVTkIwMG1abmE3eVQ4cWhQNWdGekZzVmE2aVExNQ?oc=5",
-    "category": "top_5",
-    "sent_at": "2026-11-09T08:23:17.029552+00:00"
-  },
-  {
-    "title": "Nvidia Board to Probe Spying Case After CEO Admits Infidelity",
-    "url": "https://www.livemint.com/companies/nvidia-board-to-probe-spying-case-after-ceo-admits-infidelity-11794169375335.html",
-    "category": "top_5",
-    "sent_at": "2026-11-09T08:23:17.029552+00:00"
-  },
-  {
-    "title": "As SpaceX gets cheaper, are India’s rockets taking different flight paths?",
-    "url": "https://www.livemint.com/industry/as-spacex-gets-cheaper-are-india-s-rockets-taking-different-flight-paths-11793971208680.html",
-    "category": "operations",
-    "sent_at": "2026-11-09T08:23:17.029552+00:00"
-  },
-  {
-    "title": "Inside Vikas Khanna's New York home: The story behind his stunning skyline views, sister's memories and Indian roots",
-    "url": "https://www.livemint.com/industry/real-estate/inside-vikas-khannas-new-york-home-the-story-behind-his-stunning-skyline-views-sisters-memories-and-indian-roots-11794144882698.html",
-    "category": "operations",
-    "sent_at": "2026-11-09T08:23:17.029552+00:00"
-  },
-  {
-    "title": "Are Manufacturers Acting Too Hastily in Adopting AI?",
-    "url": "https://www.supplychainbrain.com/scb-features/article/16424533/are-manufacturers-acting-too-hastily-in-adopting-ai",
-    "category": "operations",
-    "sent_at": "2026-11-09T08:23:17.029552+00:00"
-  },
-  {
-    "title": "Courage And Failure Are The New Brand Strategy",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLVVMWTU3MmluU3pLcTlBYWl5dTBuWWVwUnZ3VFJaWFJlek9EMXFkUUZWRFBxeWJGS25ZTVpaRVNUc0RhME5sWU1TMEhILXdYQ0FRdDBsVkhjZzdRVGdPaUZrRmt5T3NYb3kzNG85OUxpMWs5dVR6ZnVDUndldUFtVWhFYmNnc05yeDEtRWl0cGV4N09YWW5RQTlkd0JGME0?oc=5",
-    "category": "marketing",
-    "sent_at": "2026-11-09T08:23:17.029552+00:00"
-  },
-  {
-    "title": "3 Stocks Built on Recurring Revenue That Could Keep Growing for Decades",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcVRxTGdfdjYzN281ZU5SOGhuU2FIbG9iMGwyT244dTFLSm14bU9EVUJPc0JWUUtFS3g4aDU5YTZSbmRKdE9iMjFueS1SSC1TMGtDR1BSb3FubVpPb2d2REUtSXdwNVI5YThPcEIzMk9nS3Y3anpJUk1EZWFNWFlVMmk1eGpHY0tvd3ZTdmRuSG45REtyZll1cmx0eGpPSzEwMVl1TF94YXZFbkU4eGk2U2lYeDhzZw?oc=5",
-    "category": "marketing",
-    "sent_at": "2026-11-09T08:23:17.029552+00:00"
-  },
-  {
-    "title": "Definity Financial Q3 Earnings Call Highlights",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaU9ZOTBfZDBVTC14VDBUS3RIQlJFc1JDY1lrU0JqMlhmTUt3M3B0VnNLaFQyRS1IcUktbFFOelZSMjRCNzl3dDhoQWw4dlBhbXV2OTEyZVNxSmN2bE83elQ5NjRqNTVFM2lVSU9DQkJxeFZiaXo5MnBVWE9aVVBrYmNBNmhPNEM5d3dIVDRHVnh1a0VOdjlxaHltcmRqOUdMX2RPODc3djZlSU0?oc=5",
-    "category": "marketing",
-    "sent_at": "2026-11-09T08:23:17.029552+00:00"
-  },
-  {
     "title": "Anthropic sends out $69.3 billion IPO details, then retracts, tells banks they will update new figures",
     "url": "https://www.livemint.com/companies/news/anthropic-sends-out-69-3-billion-ipo-details-then-retracts-tells-banks-they-will-update-new-figures-11794280119925.html",
     "category": "top_5",
@@ -922,5 +856,71 @@
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS0hPSi1jaWtudUhlTE44R1EwdlVfSjFaUEQ3eVpPZDBQUGJhd3M1cmJJejQ3SEVBYVNpSURZOXFUcXQ0aEw2Mko0SUh1cjNHdlFfYkVyaTQxLXdNOGdRZFB5ckowdjRmUWJtMTBEc25EUUtkNU1zVHJOcGZVd1VPU0c4Vm1SSTNY?oc=5",
     "category": "marketing",
     "sent_at": "2026-11-22T08:28:15.493384+00:00"
+  },
+  {
+    "title": "IndusInd Bank's accounting discrepancy: Inside the saga that led to former CEO Sumant Kathpalia's termination",
+    "url": "https://www.livemint.com/industry/banking/indusind-banks-accounting-discrepancy-inside-the-saga-that-led-to-former-ceo-sumant-kathpalias-termination-11795355619561.html",
+    "category": "top_5",
+    "sent_at": "2026-11-23T09:27:33.998539+00:00"
+  },
+  {
+    "title": "China's car boom is Europe's crisis, but India's ER&D firms are paying for it",
+    "url": "https://www.livemint.com/industry/europe-auto-slowdown-indian-er-and-d-firms-ltts-kpit-tata-technologies-11795406337400.html",
+    "category": "top_5",
+    "sent_at": "2026-11-23T09:27:33.998539+00:00"
+  },
+  {
+    "title": "Mint Explainer | What Sakhalin-1 tax relief means for ONGC Videsh’s Russian investment",
+    "url": "https://www.livemint.com/industry/energy/ongc-videsh-sakhalin-1-project-capital-gains-tax-exemption-11795407189444.html",
+    "category": "top_5",
+    "sent_at": "2026-11-23T09:27:33.998539+00:00"
+  },
+  {
+    "title": "Mint Explainer | Why is India staring at a hefty cooking oil bill?",
+    "url": "https://www.livemint.com/industry/agriculture/mint-explainer-why-is-india-staring-at-a-hefty-cooking-oil-bill-11795418741498.html",
+    "category": "top_5",
+    "sent_at": "2026-11-23T09:27:33.998539+00:00"
+  },
+  {
+    "title": "Asia's investment spending to hit $16 trillion by 2030 as industrial capex broadens: Report",
+    "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/asias-investment-spending-to-hit-16-trillion-by-2030-as-industrial-capex-broadens-report/articleshow/136094071.cms",
+    "category": "top_5",
+    "sent_at": "2026-11-23T09:27:33.998539+00:00"
+  },
+  {
+    "title": "Potato acreage likely to remain stable at 2.4 million hectares in rabi season, production seen near last year's levels",
+    "url": "https://www.livemint.com/industry/agriculture/potato-acreage-stable-2-4-million-hectares-rabi-season-production-11795410252227.html",
+    "category": "operations",
+    "sent_at": "2026-11-23T09:27:33.998539+00:00"
+  },
+  {
+    "title": "Supply Chain Maturity Slips as Companies Cross $1 Billion in Revenue",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMzVGOXFUdFNxeTMyMXJvTi1JaVN4bHQ2aWQ1UDhSM3Q5QXVpajk3c1loQUI3c0NlZm1GUVl0cmoxRUd6eGJVZTkyRWFpbHZfMEFyYjJWZ0lfa1VCRHc3Z3lOLUh2Y0g4Q2JlSDNQM18wNFpCZHRLbHRnT3RPUGZSdnBwMXBUbGRHRVhBelFUZWgzTDU5aGYzaVR1TENGRV9DVk1yVTdKMkJkemVhT2habk95NG4tM0dhb1AwVWRaVHlvVDQ?oc=5",
+    "category": "operations",
+    "sent_at": "2026-11-23T09:27:33.998539+00:00"
+  },
+  {
+    "title": "Aamir Khan expands Mumbai real estate rental footprint with 3 more luxury apartments at ₹38 lakh a month",
+    "url": "https://www.livemint.com/industry/real-estate/aamir-khan-expands-mumbai-real-estate-rental-footprint-with-3-more-luxury-apartments-at-38-lakh-a-month-11795365470565.html",
+    "category": "operations",
+    "sent_at": "2026-11-23T09:27:33.998539+00:00"
+  },
+  {
+    "title": "France's Dekuple 9M revenue rises on digital marketing growth",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOalByak9mTE5kSzA4M0QyM0R4UkNZSC1CNFpjdU9pbWFxcmlaM0ttNnAySFNYVnFES3l6VkcwdUR6ZzdZaEFUOGVOSXFKU2F3MzhaVzN6emZsMWFaOUZfdEFacnh2QWxCSVh2RV9Zd3haUWozT25nR0loYXlRRVMzdllkZWtsQ25XX0tFVjJKbUF1cDBQcmxTUjZPSndyNlNVbXZYTzJrTXg5TDBNVjdQLTNOazNuQlBGQTZPTjZhYW5vem1EaUtwNWtVbw?oc=5",
+    "category": "marketing",
+    "sent_at": "2026-11-23T09:27:33.998539+00:00"
+  },
+  {
+    "title": "Arvind Gupta moves from WPP Media to INNOCEAN India",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNN25iUWJDWmVzaG5yOXF2ZGxDTXQtYWFwdklOblJ0Y3VyVUFZY1BuaHJKQlF0QloybWpjN1FFUGs3UUl1b3RULXM1dzA1T0YzQW9aZE9iem1zaks5TVZRTE9PMG9HcC1CQ05CV1BkU3JBZ2FwWk40YkR4b3lNREdYUlEyVmZXRUpfWmYzTFVkaDNlWlN6dTJCQU8tN2hwZGVYUmNOUmwwYUI5T3prbnFRbzZ2NnRoelHSAbcBQVVfeXFMTTduYlFiQ1plc2hucjlxdmRsQ010LWFhcHZJTm5SdGN1clVBWWNQbmhySkJRdEJaMm1qYzdRRVBrN1FJdW90VC1zNXcwNU9GM0FvWmRPYnptc2pLOU1WUUxPTzBvR3AtQkNOQldQZFNyQWdhcFpONGJEeG95TURHWFJRMlZmV0VKX1pmM0xVZGgzZVpTenUyQkFPLTdocGRlWFJjTlJsMGFCOU96a25xUW82djZ0aHpR?oc=5",
+    "category": "marketing",
+    "sent_at": "2026-11-23T09:27:33.998539+00:00"
+  },
+  {
+    "title": "Maldon Salt accused of flaky behavior",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1JWWZnNnhRU3ZjbG90Rkh2LTg4bEJsaGhGWjhyYVBZaUpFckdfRzJDT2dMR2FSajdIZ3lmNS1Vd1RCdnl0d0RTbEk2Wm13aTFXd2R0aExKVHZ0bGMxb1JpbVdSQ3pZWG1wNlBjTDV5Zk5TYW1pWkJKRVR0dm8xdw?oc=5",
+    "category": "marketing",
+    "sent_at": "2026-11-23T09:27:33.998539+00:00"
   }
 ]
